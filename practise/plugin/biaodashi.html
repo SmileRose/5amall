@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="applicable-device" content="mobile">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="robots" content="all">
+    <meta name="author" content="Skymoons">
+    <meta name="copyright" content="Skymoons">
+    <meta name="editor" content="Skymoons">
+    <meta name="designer" content="Rose Zhao">
+    <title>表达式</title>
+    <script src="http://code.angularjs.org/angular-1.0.2.min.js"></script>
+    <script>
+        function Cntl2($scope) {
+            var exprs = $scope.exprs = [];
+            $scope.expr = '3*10|currency';
+            $scope.addExp = function(expr) {
+                exprs.push(expr);
+            };
+            $scope.removeExp = function(index) {
+                exprs.splice(index, 1);
+            };
+        }
+    </script>
+</head>
+<body>
+<div ng-controller="Cntl2" class="expressions">
+    Expression:
+    <input type='text' ng-model="expr" size="80"/>
+    <button ng-click="addExp(expr)">Evaluate</button>
+    <ul>
+        <li ng-repeat="expr in exprs">
+            [ <a href="" ng-click="removeExp($index)">X</a> ]
+            <tt>{{expr}}</tt> => <span ng-bind="$parent.$eval(expr)"></span>
+
+        </li>
+    </ul>
+</div>
+
+
+</body>
+</html>

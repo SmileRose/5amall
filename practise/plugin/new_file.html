@@ -1,0 +1,23 @@
+<!doctype html>
+<html ng-app>
+<head>
+	<script src="http://cdn.bootcss.com/angular.js/1.0.1/angular.min.js"></script>
+
+</head>
+<body>
+<div ng-controller="MyCtrl">
+	Hello {{name}}!
+	<button ng-click="action()">
+		OK
+	</button>
+</div>
+<script>
+	function MyCtrl($scope) {
+		$scope.action = function() {
+			$scope.name = 'OK';
+		}
+		scope.name = 'World';
+	}
+</script>
+</body>
+</html>
