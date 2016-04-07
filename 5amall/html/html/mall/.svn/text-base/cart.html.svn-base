@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>购物车</title>
+		<link href="../../css/font-awesome/css/font-awesome.min.css" />
+		<link href="../../css/mui.min.css" rel="stylesheet" />
+		<link href="../../css/main.css" rel="stylesheet" />
+		<link href="../../css/style.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav main-color FFF">
+			<a class="mui-btn mui-btn-link mui-btn-nav mui-pull-left" href="javascript:history.go(-1);">
+				<span class="mui-icon mui-icon-left-nav"></span>购物车
+			</a>
+		</header>
+		<!--content Start-->
+		<div class="mui-content my-center font12">
+			<div class="nav margin10 FFFback">
+				<ul class="mui-table-view show-all-price" id="OA_task_1">
+					<li class="mui-table-view-cell mui-media finished-order item-price mui-slider-handle">
+						<div class="mui-slider-left mui-disabled">
+							<a class="mui-btn mui-btn-red font12">删除</a>
+						</div>
+						<a href="item.html" class="mui-slider-handle">
+							<img class="mui-media-object mui-pull-left" src="../../image/shop_05.png" alt="">
+							<div class="mui-media-body">
+								奶油草莓1100克新鲜奶油水果顺风包邮
+								<p class='mui-ellipsis fl'>单价:￥<font price>60</font>
+									<span class="number">数量:<font count >2</font>个</span>
+								</p>
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media finished-order item-price mui-slider-handle">
+						<div class="mui-slider-left mui-disabled">
+							<a class="mui-btn mui-btn-red font12">删除</a>
+						</div>
+						<a href="item.html" class="mui-slider-handle">
+							<img class="mui-media-object mui-pull-left" src="../../image/shop_05.png" alt="">
+							<div class="mui-media-body">
+								奶油草莓1100克新鲜奶油水果顺风包邮
+								<p class='mui-ellipsis fl'>单价:￥<font price>60</font>
+									<span class="number">数量:<font count >2</font>个</span>
+								</p>
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media finished-order item-price mui-slider-handle">
+						<div class="mui-slider-left mui-disabled">
+							<a class="mui-btn mui-btn-red font12">删除</a>
+						</div>
+						<a href="item.html" class="mui-slider-handle">
+							<img class="mui-media-object mui-pull-left" src="../../image/shop_05.png" alt="">
+							<div class="mui-media-body">
+								奶油草莓1100克新鲜奶油水果顺风包邮
+								<p class='mui-ellipsis fl'>单价:￥<font price>60</font>
+									<span class="number">数量:<font count >2</font>个</span>
+								</p>
+							</div>
+						</a>
+					</li>
+					
+				</ul>
+				<ul class="mui-table-view font12">
+					<li class="mui-table-view-cell">
+						运费: ¥<font freight>0.00</font>
+					</li>
+					<li class="mui-table-view-cell">
+						<span class="color">
+							<strong>合计: ¥<font class="all-price-ele" min="600"></font></strong>
+						</span>
+						<p class="font12">不含运费</p>
+						<a class="mui-btn main-color FFF font12" href="post-order.html">
+							结算
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--content End-->
+
+		<!--footer start-->
+		<footer>
+			<nav class="mui-bar mui-bar-tab">
+				<a class="mui-tab-item" href="shop-child.html">
+					<span class="mui-icon mui-icon-home"></span>
+					<span class="mui-tab-label">商城</span>
+				</a>
+				<a class="mui-tab-item" href="nav.html">
+					<span class="mui-icon mui-icon-phone"></span>
+					<span class="mui-tab-label">毛屋小时达</span>
+				</a>
+
+				<a class="mui-tab-item mui-active" href="community.html">
+					<span class="mui-icon mui-icon-chat"></span>
+					<span class="mui-tab-label">绿肺社区</span>
+				</a>
+
+				<a class="mui-tab-item" href="myCenter.html">
+					<span class="mui-icon mui-icon-person"></span>
+					<span class="mui-tab-label">个人中心</span>
+				</a>
+			</nav>
+		</footer>
+		<!--footer End-->
+		<script src="../../js/mui.min.js"></script>
+		<script src="../../js/app.js"></script>
+		<script src="../../js/config.js"></script>
+		<script src="../../js/common.js"></script>
+		<script src="../../js/template-native.js"></script>
+		<script src="../../js/jquery-1.11.0.js"></script>
+		<script>
+			mui.init({
+				swipeBack: false
+			});
+			(function($) {
+				$('#OA_task_1').on('tap', '.mui-btn', function(event) {
+					var elem = this;
+					mui.confirm('确认删除该条记录？', 'Hello MUI', btnArray, function(e) {
+						if (e.index == 0) {
+							var li = elem.parentNode.parentNode;
+							li.parentNode.removeChild(li);
+						}
+					});
+				});
+				var btnArray = ['确认', '取消'];
+			})(mui);
+			$('.show-all-price').each(function() {
+				var sum = 0;
+				$('[price]').each(function() {
+					sum += $(this).text() * $(this).parent().find('[count]').text();
+				});
+				var allEle = $('.all-price-ele');
+				var min = (allEle.attr('min') - 0) || 0;
+				if (sum < min) sum += $(this).next().find('[freight]').text() - 0;
+				allEle.text(sum.toFixed(2));
+			});
+		</script>
+	</body>
+
+</html>

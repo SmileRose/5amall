@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>绿肺活动详情页</title>
+		<link rel="stylesheet" href="../../css/font-awesome/css/font-awesome.min.css" />
+		<link href="../../css/mui.min.css" rel="stylesheet" />
+		<link href="../../css/main.css" rel="stylesheet" />
+		<link href="../../css/style.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<!--header start-->
+		<header class="mui-bar mui-bar-nav main-color FFF">
+			<a class="mui-btn mui-btn-link mui-btn-nav mui-pull-left" href="javascript:history.go(-1);">
+				<span class="mui-icon mui-icon-left-nav"></span>绿肺活动详情页
+			</a>
+		</header>
+		<!--header End-->
+
+		<div class="mui-content">
+			<!--头部 start-->
+			<div class="green-my-center FFF">
+				<div class="mui-table-view-cell mui-media">
+					<div class="mui-media-body find-green-food font12">
+						<h4 class="clear font14 normal mui-ellipsis">特产零食手撕牛肉干粒片条休闲特价美食小吃</h4>
+						<p class='mui-ellipsis FFF'>
+							<i class="fa fa-heart"></i>2014
+						</p>
+						<p class='mui-ellipsis FFF'>
+							<i class="fa fa-thumbs-o-up"></i>2014
+						</p>
+						<span class='fr font12'>
+							<i class="fa fa-circle font10"></i>我是瘋子
+						</span>
+					</div>
+				</div>
+			</div>
+			<!--头部 End-->
+
+			<!--活动详情 Start-->
+
+			<section class="mui-table-view FFFback">
+				<div class="mui-table-view font6b item-price">					
+					<!-- 图片-->
+					<div class="item-tab">
+						<img src="../../image/interestdetail.jpg" alt="">
+					</div>
+					<!--图片 End -->
+
+					<li class="mui-table-view-cell mui-media find-green">
+
+						<div class="mui-media-body padding10">
+							<div class="fl color font14">活动内容</div>
+							<p class='mui-ellipsis-3 clear font12 font6b'>通过上网查询，阅读书籍、采访、看电视等多种途径进行探究，感受汉字的神奇、有趣。</p>
+						</div>
+						<div class="mui-media-body padding10">
+							<div class="fl color font14">活动地点</div>
+							<p class='mui-ellipsis clear font12 font6b'>通过上网查询，阅读书籍、采访、看电视等多种途径进行探究，感受汉字的神奇、有趣。</p>
+						</div>
+						<div class="mui-media-body padding10">
+							<div class="fl color font14">报名时间</div>
+							<p class='mui-ellipsis clear font12 font6b'>
+								2014-15-12 10:00 - 2014-15-12 12:00
+							</p>
+						</div>
+						<div class="mui-media-body padding10">
+							<div class="fl color font14">活动时间</div>
+							<p class='mui-ellipsis clear font12 font6b'>
+								2014-15-12 10:00
+							</p>
+						</div>
+					</li>
+				</div>
+				
+				<div class="mui-table-view-cell item-price FFFback">
+					<div class="mui-media mui-col-xs-7 fl item-comment">
+						数量：<span class="color">30</span>
+					</div>
+					<div class="mui-media mui-col-xs-5 fl item-comment">
+						申请人数:
+						<span class="color">306</span>
+					</div>
+				</div>				
+			</section>
+			<!--活动详情结束-->
+
+			<!--评论 start-->
+			<div class="margin10 FFFback">
+				<!--评论tip start-->
+				<div class="mui-table-view-cell item-price FFFback main-title em3">
+					<div class="mui-media mui-col-xs-7 fl item-comment color">
+						<a class="fa fa-comment-o border color" href=""></a>我要评论
+					</div>
+
+					<div class="mui-media mui-col-xs-5 fl font12 right">
+						评价50
+						<a class="fa fa-chevron-right" href="#"></a>
+					</div>
+				</div>
+				<!--评论tip End-->
+				
+				<!--具体评论start-->
+				<div class="mui-table-view item-price">
+					<div class="mui-table-view ">						
+						<li class="mui-table-view-cell mui-media find-green item-price">							
+							<div class="mui-media-body">
+								<div class="fl service-item-user font14">唯一0911<i class=""></i></div>								
+								<p class='mui-ellipsis fr font10 font6b pad'>2014-12-12 10:00</p>
+							</div>
+							<div class="font12 service-comment font6b">泡泡面膜就像浴缸里满是泡泡，泡澡的赶脚，特别舒服舒服的同时可以深层清洁面部，清透毛孔的黑色素可莱丝，你！值得拥有！</div>
+						</li>
+						
+						
+						<li class="mui-table-view-cell mui-media find-green item-price">							
+							<div class="mui-media-body">
+								<div class="fl service-item-user font14">唯一0911<i class=""></i></div>								
+								<p class='mui-ellipsis fr font10 font6b'>2014-12-12 10:00</p>
+							</div>
+							<div class="font12 service-comment font6b">泡泡面膜就像浴缸里满是泡泡，泡澡的赶脚，特别舒服舒服的同时可以深层清洁面部，清透毛孔的黑色素可莱丝，你！值得拥有！</div>
+						</li>
+					</div>
+				</div>				
+				<!--具体评论End-->
+			</div>
+			<!--评论 End-->
+			<!--参加 start-->
+			<div class="mui-button-row margin10">
+				<a class="mui-col-sm-11 mui-col-xs-11 mui-btn FFF main-color font16 padding10">我要申请</a>
+			</div>
+			<!--活动详情结束-->
+		</div>
+
+		<!--footer start-->
+		<footer>
+			<nav class="mui-bar mui-bar-tab">
+				<a class="mui-tab-item mui-active" href="shop-child.html">
+					<span class="mui-icon mui-icon-home"></span>
+					<span class="mui-tab-label">商城</span>
+				</a>
+				<a class="mui-tab-item" href="nav.html">
+					<span class="mui-icon mui-icon-phone"></span>
+					<span class="mui-tab-label">毛屋小时达</span>
+				</a>
+
+				<a class="mui-tab-item" href="community.html">
+					<span class="mui-icon mui-icon-chat"></span>
+					<span class="mui-tab-label">绿肺社区</span>
+				</a>
+
+				<a class="mui-tab-item" href="myCenter.html">
+					<span class="mui-icon mui-icon-person"></span>
+					<span class="mui-tab-label">个人中心</span>
+				</a>
+			</nav>
+		</footer>
+		<!--footer End-->
+		<script src="../../js/mui.min.js"></script>
+		<script src="../../js/app.js"></script>
+		<script src="../../js/config.js"></script>
+		<script src="../../js/common.js"></script>
+		<script src="../../js/template-native.js"></script>
+	
+		<script>
+			mui.init();
+		</script>
+
+	</body>
+
+</html>

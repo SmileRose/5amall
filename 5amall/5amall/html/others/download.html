@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title></title>
+	</head>
+
+	<body>
+		<style>
+			* {
+				padding: 0;
+				margin: 0;
+				width: 100%;
+				height: 100%;
+			}
+			img {
+				border: none;
+			}
+			.download {
+				width: 100%;
+				height: auto;
+				position: relative;
+				background: #ff811a;
+				height: 100%;
+			}
+			.bot-img {
+				width: 100%;
+				height: auto;
+				position: fixed;
+				bottom: 0;
+				left: 0;
+				z-index: 2;
+			}
+			.bot-img img {
+				width: 100%;
+				display: block;
+			}
+			.logo {
+				width: 50%;
+				height: auto;
+				position: fixed;
+				left: 25%;
+				top: 20%;
+				z-index: 5;
+				height: auto;
+			}
+			.downNow {
+				width: 40%;
+				position: fixed;
+				left: 30%;
+				top: 50%;
+				z-index: 2;
+			}
+			.downNow a {
+				display: block;
+				height: 2em;
+				line-height: 2em;
+				border: 1px solid #FFF;
+				border-radius: 12px;
+				font-size: 14px;
+				color: #FFF;
+				text-decoration: none;
+				text-align: center;
+			}
+			.downNow p {
+				font-size: 10px;
+				width: 100%;
+				text-align: center;
+				color: #FFF;
+				padding: 20px 0;
+			}
+			/*隐藏层*/
+			
+			.down-hidden {
+				width: 100%;
+				height: 100%;
+				position: fixed;
+				top: 0;
+				left: 0;
+				z-index: 11;
+				overflow: hidden;
+			}
+			.down-hidden img {
+				width: 100%;
+				height: 100%;
+			}
+		</style>
+
+		<div class="download">
+			<div class="logo">
+				<img src="img/logo.png">
+			</div>
+
+			<div class="downNow">
+				<a href="javascript:" id="goNow">立即下载</a>
+				<p>5@Mall for Android</p>
+			</div>
+
+			<div class="bot-img">
+				<img src="img/appd_a1.gif">
+			</div>
+		</div>
+
+		<!--无法下载 的提示框 -->
+		<div class="down-hidden">
+			<img src="img/noDown.png">
+		</div>
+
+	</body>
+
+</html>

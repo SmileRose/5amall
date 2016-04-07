@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="" />
+		<title></title>
+	</head>
+	<body>
+		<script type="text/html" id="goods_class">
+			<%for(i = 0; i < class_list.length; i ++) {%>
+			ID:<%=class_list[i].gc_id%>,NAME:<%=class_list[i].gc_name%>,TEXT:<%=class_list[i].text%><br />
+			<%}%>
+		</script>
+		<div id="content"></div>
+	</body>
+	<script type="text/javascript" src="../../script/api.js"></script>
+	<script type="text/javascript" src="../../script/common.js"></script>
+	<script type="text/javascript" src="../../script/template.js"></script>
+	<script type="text/javascript">
+		apiready = function() {
+			api.ajax({
+				url : 'http://www.5amall.cn/mobile/index.php?act=goods_class',
+				method : 'get',
+				timeout : 30,
+				dataType : 'json',
+				returnAll : false,
+				data : {}
+			}, function(ret, err) {
+				if (ret) {
+					var urlJson = JSON.stringify(ret);
+					api.alert({
+						msg : urlJson
+					});
+					var data = ret.datas;
+					var html = template('goods_class', data);
+					document.getElementById('content').innerHTML = html;
+				} else {
+					api.alert({
+						msg : ('错误码：' + err.code + '；错误信息：' + err.msg + '网络状态码：' + err.statusCode)
+					});
+				};
+			});
+		}
+	</script>
+</html>

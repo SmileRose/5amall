@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>气节食谱</title>		
+		<link rel="stylesheet" href="../../css/font-awesome/css/font-awesome.min.css" />
+		<link href="../../css/mui.min.css" rel="stylesheet" />
+		<link href="../../css/main.css" rel="stylesheet" />
+		<link href="../../css/style.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav main-color FFF"> 
+			<a class="mui-btn mui-btn-link mui-btn-nav mui-pull-left" href="javascript:history.go(-1);">
+				<span class="mui-icon mui-icon-left-nav"></span>气节食谱
+			</a>
+		</header>
+
+		<div class="mui-content">
+			<!--重物送， 帮我买 特惠购-->
+			<div class="shop-sort">
+				<ul class="mui-table-view">
+					<li class="mui-table-view-cell mui-media">
+						<a href="season.html" title="">
+							<img class="mui-media-object mui-pull-left" src="i/nav-1.png">
+							<i class="mui-navigate-right"></i>
+							<div class="mui-media-body normal">
+								春
+								<p class='mui-ellipsis'>立春 雨水 谷雨 清明 春分 惊蛰</p>
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media">
+						<a href="season.html" title="">
+							<img class="mui-media-object mui-pull-left" src="i/nav-2.png">
+							<i class="mui-navigate-right"></i>
+							<div class="mui-media-body normal">
+								夏
+								<p class='mui-ellipsis'>立春 雨水 谷雨 清明 春分 惊蛰</p>
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media">
+						<a href="season.html" title="">
+							<img class="mui-media-object mui-pull-left" src="i/nav-3.png">
+							<i class="mui-navigate-right"></i>
+							<div class="mui-media-body normal">
+								秋
+								<p class='mui-ellipsis'>立春 雨水 谷雨 清明 春分 惊蛰</p>
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media">
+						<a href="season.html" title="">
+							<img class="mui-media-object mui-pull-left" src="i/nav-2.png">
+							<i class="mui-navigate-right normal"></i>
+							<div class="mui-media-body">
+								冬
+								<p class='mui-ellipsis'>立春 雨水 谷雨 清明 春分 惊蛰</p>
+							</div>
+						</a>
+					</li>					
+				</ul>
+			</div>
+		</div>
+
+		<!--footer start-->
+		<footer>
+			<nav class="mui-bar mui-bar-tab">
+				<a class="mui-tab-item" href="shop-child.html">
+					<span class="mui-icon mui-icon-home"></span>
+					<span class="mui-tab-label">商城</span>
+				</a>
+				<a class="mui-tab-item" href="nav.html">
+					<span class="mui-icon mui-icon-phone"></span>
+					<span class="mui-tab-label">毛屋小时达</span>
+				</a>
+				
+				<a class="mui-tab-item mui-active" href="community.html">
+					<span class="mui-icon mui-icon-chat"></span>
+					<span class="mui-tab-label">绿肺社区</span>
+				</a>			
+	
+				<a class="mui-tab-item" href="myCenter.html">
+					<span class="mui-icon mui-icon-person"></span>
+					<span class="mui-tab-label">个人中心</span>
+				</a>
+			</nav>
+		</footer>
+		<!--footer End-->
+		<script src="../../js/mui.min.js"></script>
+		<script src="../../js/app.js"></script>
+		<script src="../../js/config.js"></script>
+		<script src="../../js/common.js"></script>
+		<script src="../../js/template-native.js"></script>
+
+		<script>
+			mui.init();
+			var gallery = mui('.mui-slider');
+			gallery.slider({
+				interval: 5000 //自动轮播周期，若为0则不自动播放，默认为0；
+			});
+		</script>
+
+	</body>
+
+</html>

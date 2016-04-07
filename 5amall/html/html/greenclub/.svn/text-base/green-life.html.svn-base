@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>绿肺生活</title>
+		<link rel="stylesheet" href="../../css/font-awesome/css/font-awesome.min.css" />
+		<link href="../../css/mui.min.css" rel="stylesheet" />
+		<link href="../../css/main.css" rel="stylesheet" />
+		<link href="../../css/style.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav main-color FFF">
+			<a class="mui-btn mui-btn-link mui-btn-nav mui-pull-left" href="javascript:history.go(-1);">
+				<span class="mui-icon mui-icon-left-nav"></span>绿肺生活
+			</a>
+		</header>
+
+		<div class="mui-content">
+			<!--分類 start-->
+			<div id="Gallery" class="mui-slider margin10">
+				<div class="mui-slider-group">
+					<div class="mui-slider-item">
+						<ul class="mui-table-view mui-grid-view mui-grid-9 shop-icon-sort">
+							<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+								<a href="vegetable.html">
+									<span><img src="../../image/img/1.png"></span>
+									<div class="mui-media-body">一米菜园</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+								<a href="travel.html">
+									<span><img src="../../image/img/3.png"></span>
+									<div class="mui-media-body">微旅行</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+								<a href="kitchen.html">
+									<span><img src="../../image/img/6.png"></span>
+									<div class="mui-media-body">主妇厨房</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+								<a href="greenPlan.html">
+									<span><img src="../../image/img/7.png"></span>
+									<div class="mui-media-body">绿盾计划</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!--分類 End-->
+
+			<div class="mui-table-view">
+				<div class="green-activity mui-text-center item-price font14">
+					<a href="">
+						<i class="fa fa-camera"></i>选择照片发起活动
+					</a>
+				</div>
+
+				<ul class="mui-table-view">
+					<li class="mui-table-view-cell mui-media find-green item-price">
+						<div class="green-life-user">
+							<img class="mui-media-object head-photo mui-pull-left" src="../../image/shop_05.png">
+							<div class="mui-media-body find-green-food">
+								<div class="service-item-user">
+									唯一0911
+								</div>
+								<div class="green-life-user-like fr">
+									<span class="font12">
+										<i class="fa fa-heart font14"></i>
+									</span>
+									<span class="font12">
+										<i class="fa fa-eye font16"></i>203
+									</span>
+								</div>
+								
+								<p class='mui-ellipsis'>
+									<i class="fa fa-tags"></i>
+									<i class="blue-tag">烹饪</i>
+									<i class="pink-tag">旅游</i>
+								</p>								
+							</div>
+						</div>
+						<div class="mui-media find-green-food green-life-comment">
+							<a href="greenActivity.html">
+								<img class="mui-media-object mui-pull-left" src="../../image/nearService_03.png" alt="">
+								<div class="mui-media-body">
+									<div class="oa-contact-name color font14">关于-美食的诱惑</div>
+	
+									<p class='mui-ellipsis-2 font12'>通过上网，阅读， 看到，点点是等多重信息探究，感受文字的神奇，有趣。</p>
+									<p class='mui-ellipsis font10 font6b'>2014-12-12</p>
+									<p class='mui-ellipsis font10 font6b'>四川省成都市高新区</p>
+								</div>
+							</a>	
+						</div>
+						<div class="green-life-like mui-table-view-cell mui-media">
+							<div class="mui-col-xs-3 mui-col-sm-3 fl">
+								<i class="fa fa-heart"></i><span class="font14">12</span>
+							</div>
+
+							<div class="mui-col-xs-7 mui-col-sm-7 fl">
+
+								<a href="" class="green-life-user-photo">
+									<img src="../../image/find-green.png">
+								</a>
+								<a href="" class="green-life-user-photo">
+									<img src="../../image/find-green.png">
+								</a>
+								<a href="" class="green-life-user-photo">
+									<img src="../../image/find-green.png">
+								</a>
+								<a href="" class="green-life-user-photo">
+									<img src="../../image/find-green.png">
+								</a>
+							</div>
+							<div class="mui-col-xs-2 mui-col-sm-2 fl">
+								<a class="mui-btn main-color FFF font12 fr">参加</a>
+							</div>
+						</div>
+					</li>
+
+					<li class="mui-table-view-cell mui-media find-green item-price">
+						<div class="green-life-user">
+							<img class="mui-media-object head-photo mui-pull-left" src="../../image/shop_05.png">
+							<div class="mui-media-body find-green-food">
+								<div class="service-item-user">
+									唯一0911
+								</div>
+								<div class="green-life-user-like fr">
+									<span class="font12">
+										<i class="fa fa-heart font14"></i>
+									</span>
+									<span class="font12">
+										<i class="fa fa-eye font16"></i>203
+									</span>
+								</div>
+								
+								<p class='mui-ellipsis'>
+									<i class="fa fa-tags"></i>
+									<i class="blue-tag">烹饪</i>
+									<i class="pink-tag">旅游</i>
+								</p>								
+							</div>
+						</div>
+						<div class="mui-media find-green-food green-life-comment">
+							<a href="greenActivity.html">
+								<img class="mui-media-object mui-pull-left" src="../../image/nearService_03.png" alt="">
+								<div class="mui-media-body">
+									<div class="oa-contact-name color font14">关于-美食的诱惑</div>
+	
+									<p class='mui-ellipsis-2 font12'>通过上网，阅读， 看到，点点是等多重信息探究，感受文字的神奇，有趣。</p>
+									<p class='mui-ellipsis font10 font6b'>2014-12-12</p>
+									<p class='mui-ellipsis font10 font6b'>四川省成都市高新区</p>
+								</div>
+							</a>	
+						</div>
+						<div class="green-life-like mui-table-view-cell mui-media">
+							<div class="mui-col-xs-3 mui-col-sm-3 fl">
+								<i class="fa fa-heart"></i><span class="font14">12</span>
+							</div>
+
+							<div class="mui-col-xs-7 mui-col-sm-7 fl">
+
+								<a href="" class="green-life-user-photo">
+									<img src="../../image/find-green.png">
+								</a>
+								<a href="" class="green-life-user-photo">
+									<img src="../../image/find-green.png">
+								</a>
+								<a href="" class="green-life-user-photo">
+									<img src="../../image/find-green.png">
+								</a>
+								<a href="" class="green-life-user-photo">
+									<img src="../../image/find-green.png">
+								</a>
+							</div>
+							<div class="mui-col-xs-2 mui-col-sm-2 fl">
+								<a class="mui-btn main-color FFF font12 fr">参加</a>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+
+		<!--footer start-->
+		<footer>
+			<nav class="mui-bar mui-bar-tab">
+				<a class="mui-tab-item" href="shop-child.html">
+					<span class="mui-icon mui-icon-home"></span>
+					<span class="mui-tab-label">商城</span>
+				</a>
+				<a class="mui-tab-item" href="nav.html">
+					<span class="mui-icon mui-icon-phone"></span>
+					<span class="mui-tab-label">毛屋小时达</span>
+				</a>
+
+				<a class="mui-tab-item mui-active" href="community.html">
+					<span class="mui-icon mui-icon-chat"></span>
+					<span class="mui-tab-label">绿肺社区</span>
+				</a>
+
+				<a class="mui-tab-item" href="myCenter.html">
+					<span class="mui-icon mui-icon-person"></span>
+					<span class="mui-tab-label">个人中心</span>
+				</a>
+			</nav>
+		</footer>
+		<!--footer End-->
+		<script src="../../js/mui.min.js"></script>
+		<script src="../../js/app.js"></script>
+		<script src="../../js/config.js"></script>
+		<script src="../../js/common.js"></script>
+		<script src="../../js/template-native.js"></script>
+		<script type="text/javascript" src="../../js/jquery-1.11.0.js"></script>
+		<script>
+			mui.init();
+			var gallery = mui('.mui-slider');
+			gallery.slider({
+				interval: 5000 //自动轮播周期，若为0则不自动播放，默认为0；
+			});
+			mui.init({
+				swipeBack: false,
+			});
+		</script>
+
+	</body>
+
+</html>

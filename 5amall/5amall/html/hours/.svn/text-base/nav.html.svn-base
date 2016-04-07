@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>小时达</title>
+		<link rel="stylesheet" href="../../css/font-awesome/css/font-awesome.min.css" />
+		<link href="../../css/mui.min.css" rel="stylesheet" />
+		<link href="../../css/main.css" rel="stylesheet" />
+		<link href="../../css/style.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav main-color FFF">
+			<div class="mui-input-row mui-search mui-pull-left FFF">
+				<input type="search" class="mui-input-clea FFFr" placeholder="搜索">
+			</div>
+
+			<a class="mui-action-back mui-icon mui-icon-location mui-pull-right FFF"></a>
+		</header>
+
+		<div class="mui-content">
+			<!-- 轮播 start-->
+			<div id="slider" class="mui-slider">
+				<div class="mui-slider-group mui-slider-loop">
+					<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+					<div class="mui-slider-item mui-slider-item-duplicate">
+						<a href="#">
+							<img src="../../image/shop_02.jpg">
+						</a>
+					</div>
+					<!-- 第一张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="../../image/shop_02.jpg">
+						</a>
+					</div>
+					<!-- 第二张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="../../image/shop_02.jpg">
+						</a>
+					</div>
+					<!-- 第三张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="../../image/shop_02.jpg">
+						</a>
+					</div>
+					<!-- 第四张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="../../image/shop_02.jpg">
+						</a>
+					</div>
+					<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+					<div class="mui-slider-item mui-slider-item-duplicate">
+						<a href="#">
+							<img src="../../image/shop_02.jpg">
+						</a>
+					</div>
+				</div>
+				<div class="mui-slider-indicator">
+					<div class="mui-indicator mui-active"></div>
+					<div class="mui-indicator"></div>
+					<div class="mui-indicator"></div>
+					<div class="mui-indicator"></div>
+				</div>
+			</div>
+			<!-- 轮播  End-->
+
+			<!--重物送， 帮我买 特惠购-->
+			<div class="nav">
+				<ul class="mui-table-view">
+					<li class="mui-table-view-cell mui-media">
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="../../image/img/nav-1.png">
+							<div class="mui-media-body">
+								重物送
+								<p class='mui-ellipsis'>粮油 鲜奶</p>
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media">
+						<a href="nearMarket.html">
+							<img class="mui-media-object mui-pull-left" src="../../image/img/nav-2.png">
+							<div class="mui-media-body">
+								帮我买
+								<p class='mui-ellipsis'>送商品 送外卖 取物品</p>
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media">
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="../../image/img/nav-3.png">
+							<div class="mui-media-body">
+								特惠购
+								<p class='mui-ellipsis'>新品购 限时购</p>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<!--footer start-->
+		<footer>
+			<nav class="mui-bar mui-bar-tab">
+				<a class="mui-tab-item" href="shop-child.html">
+					<span class="mui-icon mui-icon-home"></span>
+					<span class="mui-tab-label">商城</span>
+				</a>
+				<a class="mui-tab-item mui-active" href="nav.html">
+					<span class="mui-icon mui-icon-phone"></span>
+					<span class="mui-tab-label">小时达</span>
+				</a>
+
+				<a class="mui-tab-item" href="community.html">
+					<span class="mui-icon mui-icon-chat"></span>
+					<span class="mui-tab-label">绿肺社区</span>
+				</a>
+
+				<a class="mui-tab-item" href="myCenter.html">
+					<span class="mui-icon mui-icon-person"></span>
+					<span class="mui-tab-label">个人中心</span>
+				</a>
+			</nav>
+		</footer>
+		<!--footer End-->
+		
+		<script src="../../js/mui.min.js"></script>
+		<script src="../../js/app.js"></script>
+		<script src="../../js/config.js"></script>
+		<script src="../../js/common.js"></script>
+		<script src="../../js/template-native.js"></script>
+		<script src="../../js/jquery-1.11.0.js" ></script>
+
+		<script>
+			mui.init();
+			var gallery = mui('.mui-slider');
+			gallery.slider({
+				interval: 5000 //自动轮播周期，若为0则不自动播放，默认为0；
+			});
+		</script>
+
+	</body>
+
+</html>

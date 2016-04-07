@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>兴趣圈</title>
+		<link rel="stylesheet" href="../../css/font-awesome/css/font-awesome.min.css" />
+		<link href="../../css/mui.min.css" rel="stylesheet" />
+		<link href="../../css/main.css" rel="stylesheet" />
+		<link href="../../css/style.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<!--header start-->
+		<header class="mui-bar mui-bar-nav main-color FFF">
+			<a class="mui-btn mui-btn-link mui-btn-nav mui-pull-left" href="javascript:history.go(-1);">
+				<span class="mui-icon mui-icon-left-nav"></span>兴趣圈
+			</a>
+		</header>
+		<!--header End-->
+
+		<!--content Start-->
+		<div class="mui-content">
+			<!--个人积分 start-->
+			<div class="item-tab font12 FFFback">
+				<div class="center item-name item-price">
+					<a class="mui-media mui-col-xs-6 fl mui-text-center active" href="javascript:void(0)">最新发帖</a>
+					<a class="mui-media mui-col-xs-6 fl mui-text-center" href="javascript:void(0)">最热发帖</a>
+				</div>
+				<!--tab0 start -->
+				<div class="item current margin10 FFFback">
+					<!--头像 start -->
+					<div class="mui-slider-cell green-my-center my-community-head FFFback item-price">
+						<div class="mui-table-view-cell mui-media">
+							<img class="interest mui-pull-left" src="../../image/community_03.png">
+							<div class="mui-media-body">
+								<div class="font14 weight">二分醒@3#</div>
+								<div class="font10 font6b">To be or not to be</div>
+
+							</div>
+							<div class="fl">
+								<span class="pink-tag fl">关注</span>
+								<span class="fl writing">
+									<a href="">
+										<i class="fa fa-list-alt"></i>12
+									</a>
+								</span>
+							</div>
+						</div>
+					</div>
+					<!--头像End-->
+
+					<!--图片话题 start-->
+					<div class="community-topic">
+						<li class="mui-table-view-cell mui-media font12 item-price">
+							<a href="">
+								<div class="mui-col-xs-1 mui-col-sm-1 fl">
+									<i class="fa fa-arrow-circle-up color"></i>
+								</div>
+								<div class="fl mui-col-xs-9 mui-col-sm-9 mui-ellipsis">
+									<strong>我要去西藏</strong>
+									<span class="font10">世界那么大世界那么大，我想去看看</span>
+								</div>
+								<div class="fl mui-col-xs-2 mui-col-sm-2 mui-text-right mui-ellipsis">
+									<i class="fa fa-eye font6b"></i>1010
+								</div>
+							</a>	
+						</li>
+
+						<li class="mui-table-view-cell mui-media font12 item-price">
+							<a href="">
+								<div class="mui-col-xs-1 mui-col-sm-1 fl">
+									<i class="fa color"></i>
+								</div>
+								<div class="fl mui-col-xs-9 mui-col-sm-9 mui-ellipsis">
+									<strong>我要去西藏</strong>
+									<span class="font10">世界那么大世界那么大，我想去看看</span>
+								</div>
+								<div class="fl mui-col-xs-2 mui-col-sm-2 mui-text-right mui-ellipsis">
+									<i class="fa fa-eye font6b"></i>1010
+								</div>
+							</a>	
+						</li>
+
+						<li class="mui-table-view-cell mui-media font12 item-price">
+							<a href="">
+								<div class="mui-col-xs-1 mui-col-sm-1 fl">
+									<i class="fa color"></i>
+								</div>
+								<div class="fl mui-col-xs-9 mui-col-sm-9 mui-ellipsis">
+									<strong>我要去西藏</strong>
+									<span class="font10">世界那么大世界那么大，我想去看看</span>
+								</div>
+								<div class="fl mui-col-xs-2 mui-col-sm-2 mui-text-right mui-ellipsis">
+									<i class="fa fa-eye font6b"></i>1010
+								</div>
+							</a>	
+						</li>
+
+						<li class="mui-table-view-cell mui-media font12 item-price">
+							<a href="">
+								<div class="mui-col-xs-1 mui-col-sm-1 fl">
+									<i class="fa color"></i>
+								</div>
+								<div class="fl mui-col-xs-9 mui-col-sm-9 mui-ellipsis">
+									<strong>我要去西藏</strong>
+									<span class="font10">世界那么大世界那么大，我想去看看</span>
+								</div>
+								<div class="fl mui-col-xs-2 mui-col-sm-2 mui-text-right mui-ellipsis">
+									<i class="fa fa-eye font6b"></i>1010
+								</div>
+							</a>	
+						</li>
+
+						<li class="mui-table-view-cell mui-media font12 item-price">
+							<a href="">
+								<div class="mui-col-xs-1 mui-col-sm-1 fl">
+									<i class="fa fa-arrow-circle-up color"></i>
+								</div>
+								<div class="fl mui-col-xs-9 mui-col-sm-9 mui-ellipsis">
+									<strong>我要去西藏</strong>
+									<span class="font10">世界那么大世界那么大，我想去看看</span>
+								</div>
+								<div class="fl mui-col-xs-2 mui-col-sm-2 mui-text-right mui-ellipsis">
+									<i class="fa fa-eye font6b"></i>1010
+								</div>
+							</a>	
+						</li>
+					</div>
+					<!--旅行 End-->
+
+				</div>
+				<!--tab1 start -->
+				<div class="item">
+					<!--头像 start -->
+					<div class="mui-slider-cell green-my-center my-community-head FFFback item-price">
+						<div class="mui-table-view-cell mui-media">
+							<img class="interest mui-pull-left" src="../../image/community_03.png">
+							<div class="mui-media-body">
+								<div class="font14 weight">二分醒@3#</div>
+								<div class="font10 font6b">To be or not to be</div>
+
+							</div>
+							<div class="fl">
+								<span class="pink-tag fl">关注</span>
+								<span class="fl writing">
+									<a href="">
+										<i class="fa fa-list-alt"></i>12
+									</a>
+								</span>
+							</div>
+						</div>
+					</div>
+					<!--头像End-->
+
+					<!--图片话题 start-->
+					<div class="community-topic">
+						<li class="mui-table-view-cell mui-media font12 item-price">
+							<a href="">
+								<div class="mui-col-xs-1 mui-col-sm-1 fl">
+									<i class="fa fa-arrow-circle-up color"></i>
+								</div>
+								<div class="fl mui-col-xs-9 mui-col-sm-9 mui-ellipsis">
+									<strong>我要去西藏</strong>
+									<span class="font10">我带上你，你带上钱</span>
+								</div>
+								<div class="fl mui-col-xs-2 mui-col-sm-2 mui-text-right mui-ellipsis">
+									<i class="fa fa-eye font6b"></i>1010
+								</div>
+							</a>	
+						</li>
+
+						<li class="mui-table-view-cell mui-media font12 item-price">
+							<a href="">
+								<div class="mui-col-xs-1 mui-col-sm-1 fl">
+									<i class="fa fa-arrow-circle-up color"></i>
+								</div>
+								<div class="fl mui-col-xs-9 mui-col-sm-9 mui-ellipsis">
+									<strong>我要去西藏</strong>
+									<span class="font10">我带上你，你带上钱</span>
+								</div>
+								<div class="fl mui-col-xs-2 mui-col-sm-2 mui-text-right mui-ellipsis">
+									<i class="fa fa-eye font6b"></i>1010
+								</div>
+							</a>	
+						</li>
+						
+						<li class="mui-table-view-cell mui-media font12 item-price">
+							<a href="">
+								<div class="mui-col-xs-1 mui-col-sm-1 fl">
+									<i class="fa color"></i>
+								</div>
+								<div class="fl mui-col-xs-9 mui-col-sm-9 mui-ellipsis">
+									<strong>我要去西藏</strong>
+									<span class="font10">我带上你，你带上钱</span>
+								</div>
+								<div class="fl mui-col-xs-2 mui-col-sm-2 mui-text-right mui-ellipsis">
+									<i class="fa fa-eye font6b"></i>1010
+								</div>
+							</a>	
+						</li>
+						
+						<li class="mui-table-view-cell mui-media font12 item-price">
+							<a href="">
+								<div class="mui-col-xs-1 mui-col-sm-1 fl">
+									<i class="fa color"></i>
+								</div>
+								<div class="fl mui-col-xs-9 mui-col-sm-9 mui-ellipsis">
+									<strong>我要去西藏</strong>
+									<span class="font10">我带上你，你带上钱</span>
+								</div>
+								<div class="fl mui-col-xs-2 mui-col-sm-2 mui-text-right mui-ellipsis">
+									<i class="fa fa-eye font6b"></i>1010
+								</div>
+							</a>	
+						</li>
+					</div>
+					<!--旅行 End-->
+				</div>
+			</div>
+		</div>
+
+
+		<!--个人积分  End-->
+
+		<!--发现绿肺-->
+
+		<script src="../../js/mui.min.js"></script>
+		<script src="../../js/app.js"></script>
+		<script src="../../js/config.js"></script>
+		<script src="../../js/common.js"></script>
+		<script src="../../js/template-native.js"></script>
+		<script type="text/javascript" src="../../js/jquery-1.11.0.js"></script>
+		<script>
+			$(function() {
+				$(".item").hide();
+				$(".item.current").show();
+				$(".item-name a").each(function() {
+					$(this).click(function() {
+						var index = $(this).index();
+						$(this).addClass("active");
+						$(this).parent().siblings(".item").eq(index).show()
+							.siblings(".item").hide();
+					});
+				});
+			});
+		</script>
+	</body>
+
+</html>

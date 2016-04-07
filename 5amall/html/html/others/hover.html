@@ -1,0 +1,93 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="robots" content="all" />
+<title>纯CSS的下拉菜单 支持IE6 IE7 Firefox</title>  
+<style type="text/css">  
+*{margin:0;padding:0;}   
+.menu{font-size:12px;position:relative;z-index:100;}   
+.menu ul{list-style:none;}   
+.menu li {float:left;position:relative;}   
+.menu ul ul {visibility:hidden;position:absolute;left:3px;top:23px;}   
+.menu table {position:absolute; top:0; left:0;}   
+.menu ul li:hover ul,   
+.menu ul a:hover ul{visibility:visible;}   
+.menu a{display:block;border:1px solid #aaa;background:#cacaca;padding:2px 10px;margin:3px;color:#fff;text-decoration:none;}   
+.menu a:hover{background:#fafafa;color:#000;border:1px solid #000;}   
+.menu ul ul{}   
+.menu ul ul li {clear:both;text-align:left;font-size:12px;}   
+.menu ul ul li a{display:block;width:100px;height:15px;margin:0;border:0;border-bottom:1px solid #858585;}   
+.menu ul ul li a:hover{border:0;background:#fafafa;border-bottom:1px solid #fff;}   
+</style>  
+</head>  
+  
+<body>  
+  
+<div class="menu">  
+          <ul>  
+              <li><a href="#">XHTML/CSS   
+                  <!--[if IE 7]><!--></a><!--<![endif]-->  
+                  <!--[if lte IE 6]><table><tr><td><![endif]-->  
+                  <ul>  
+                      <li><a href="#">标准</a></li>  
+                      <li><a href="#">教程</a></li>  
+                      <li><a href="#">技术文章</a></li>  
+                      <li><a href="#">常见问题</a></li>  
+                      <li><a href="#">布局教程专题</a></li>  
+                      <li><a href="#">CSS菜单</a></li>  
+                      <li><a href="#">浏览器兼容</a></li>  
+                      <li><a href="#">滚动条相关</a></li>  
+                      <li><a href="#">圆角矩形专题</a></li>  
+                      <li><a href="#">CSS特效欣赏专题</a></li>  
+                  </ul>  
+                  <!--[if lte IE 6]></td></tr></table></a><![endif]-->  
+              </li>  
+              <li><a href="#">07艺术
+                  <!--[if IE 7]><!--></a><!--<![endif]-->  
+                  <!--[if lte IE 6]><table><tr><td><![endif]-->  
+                  <ul>  
+                      <li><a href="#">网页教学网</a></li>  
+                      <li><a href="#">网页教学网</a></li>  
+                  </ul>  
+                  <!--[if lte IE 6]></td></tr></table></a><![endif]-->  
+              </li>  
+              <li><a href="#">Javascript   
+                  <!--[if IE 7]><!--></a><!--<![endif]-->  
+                  <!--[if lte IE 6]><table><tr><td><![endif]-->  
+                  <ul>  
+                      <li><a href="#">JSON</a></li>  
+                      <li><a href="#">技术文章</a></li>  
+                  </ul>  
+                  <!--[if lte IE 6]></td></tr></table></a><![endif]-->  
+              </li>  
+              <li><a href="#">DOM</a></li>  
+              <li><a href="#">XML</a></li>  
+              <li><a href="#">正则表达式   
+                  <!--[if IE 7]><!--></a><!--<![endif]-->  
+                  <!--[if lte IE 6]><table><tr><td><![endif]-->  
+                  <ul>  
+                      <li><a href="#">正则表达式简介</a></li>  
+                      <li><a href="#">正则表达式之道</a></li>  
+                  </ul>  
+                  <!--[if lte IE 6]></td></tr></table></a><![endif]-->  
+              </li>  
+              <li><a href="#">网站优化</a></li>  
+              <li><a href="#">电脑网络</a></li>  
+              <li><a href="#">建站技术   
+                  <!--[if IE 7]><!--></a><!--<![endif]-->  
+                  <!--[if lte IE 6]><table><tr><td><![endif]-->  
+                  <ul>  
+                      <li><a href="#">HP</a></li>  
+                      <li><a href="#">ASP</a></li>  
+                      <li><a href="#">ASP.NET</a></li>  
+                      <li><a href="#">JSP</a></li>  
+                      <li><a href="#">SQL</a></li>  
+                      <li><a href="#">Flash</a></li>  
+                      <li><a href="#">Dreamweaver</a></li>  
+                  </ul>  
+                  <!--[if lte IE 6]></td></tr></table></a><![endif]-->  
+              </li>  
+          </ul>  
+</div>  
+</body>  
+</html>

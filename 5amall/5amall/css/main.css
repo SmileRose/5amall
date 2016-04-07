@@ -1,0 +1,57 @@
+/*!
+ * =====================================================
+ * Rose Zhao 
+ * =====================================================
+ *//*! 2015/4/13 */
+body{font-family: "微软雅黑",times;}
+ul,li{list-style: none;}
+:before{background-color:transparent}
+:after{background-color:transparent}
+.margin10{margin: 10px 0;}
+.padding10{padding: 10px 0;}
+.font10{font-size: 10px;}
+.font12{font-size: 12px;}
+.font14{font-size: 14px;}
+.font16{font-size: 16px;}
+.weight{font-weight: 600;}
+
+.fl{float: left;}
+.fr{float: right;}
+.mui-content{padding-bottom: 49px;}
+.right{text-align: right;}
+img{border: none; }
+.clear{clear: both;}
+.hidden{overflow: hidden;}
+
+/*颜色定义*/
+.FFF{color: #FFF;}
+.FFFback{background:#FFF;}
+.main-back{background: #f5f5f5;}
+.main-color{background: #ff634d; border: none;}
+.center{margin: 0 auto;}
+.color{color: #FF5053;}
+.colorBlue{color:#4E9DFA ;}
+
+body{background: #F5F5F5;}
+.mui-bar-tab .mui-tab-item.mui-active{color:#ff634d ;}
+
+.mui-bar-nav{box-shadow: none;-webkit-box-shadow: none;}
+.community-person span i.color{color:#ff634d}
+.font6b{color: #6b6b6b;}
+.font4a{color:#4a4a4a}
+
+/*head*/
+input[type=search]{background-color:transparent;}
+.mui-search .mui-placeholder{font-size: 14px;}
+.mui-bar .mui-btn-nav.mui-pull-left .mui-icon-left-nav{margin-right: 10px;}
+.mui-bar .mui-btn-link{color: #FFF;}
+.mui-title{font-size: 12px;}
+.mui-search .mui-placeholder .mui-icon{color: #FFF;}
+.mui-search .mui-placeholder{color: #FFF;}
+/*bottom*/
+.mui-bar .mui-icon{font-size: 20px ;}
+.mui-bar{box-shadow: none; /*background-color:rgba(255, 255, 255, 1)*/}
+
+
+
+ 

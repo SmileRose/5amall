@@ -1,0 +1,34 @@
+/*!
+ * =====================================================
+ * Rose Zhao 
+ * =====================================================
+ *//*! 2015/4/13 */
+
+
+/*activity*/
+body{font-family: "微软雅黑",times;}
+.activity{padding: 20px 10px; color: #4A4A4A;}
+.activity .mui-input-row label~input, .mui-input-row label~select, .mui-input-row label~textarea{border: 1px solid #F2F2F2; font-size: 12px; padding: 5px;}
+.activity .mui-input-row{margin: 2em 0;}
+.mui-input-row label{width: 25%; color: #4A4A4A; padding: 10px 5px;}
+.activity .mui-input-row label~input.activity-title{width: 75%; float: left; height: 2.6em;}
+.activity .mui-input-row label~input.activity-time{width: 35%; float: left; height: 2.6em;}
+.activity .mui-input-row label~input.detail-address{width: 50%; float: left; height: 2.6em;}
+.activity .mui-input-row .mui-input-clear~.mui-icon-clear{right: 2px; top: 5px;}
+.activity .mui-input-row textarea{font-size: 12px;height: 5em; border: none;}
+.activity .mui-input-row.activity-detail{font-size: 12px;height: 12em; border: 1px solid #F2F2F2; }
+.find-green-pic li,.activity-detail li{position:relative;float: left; width: 50px; height: 50px; margin: 5px; list-style: none; border: 1px solid #f2f2f2; display: block;}
+.find-green-pic li img,.activity-detail li img{width: 50px; height: 50px; position: relative;}
+.find-green-pic li .fa-times-circle,.activity-detail li .fa-times-circle{position: absolute; top: -8px; right: -5px; font-size: 20px;}
+ .find-green-pic li .fa-plus,.activity-detail li .fa-plus{font-size: 30px; color: #6B6B6B; position: absolute; top: 10px; left: 10px;}
+.mui-input-row label~select{width: 20%; float: left; }
+.activity .mui-btn-blue, .mui-btn-primary, input[type=submit]{background: #ff634d; border: #f6514b; font-size: 12px;}
+.activity .mui-input-row.find-green-pic{font-size: 12px;height: 20em; border: none}
+.activity .mui-input-row.find-green-pic textarea{font-size: 12px;height: 13em; border: none;}
+
+input[type=text].find-green-title{border: none; border-bottom: 1px solid #F2F2F2;}
+
+
+/*mood*/
+.mood{padding: 0 1em;clear: both;}
+.mood h2{color: #e4e4e4; width: 1.5em; text-align: right; font-size: 24px;}

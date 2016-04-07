@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>个人中心</title>
+		<link rel="stylesheet" href="../../css/font-awesome/css/font-awesome.min.css" />
+		<link href="../../css/mui.min.css" rel="stylesheet" />
+		<link href="../../css/main.css" rel="stylesheet" />
+		<link href="../../css/style.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<!--header start-->
+		<header class="mui-bar mui-bar-nav main-color">
+			<a class="mui-btn mui-btn-link mui-btn-nav mui-pull-left mui-action-back">
+				<span class="mui-icon mui-icon-left-nav FFF"></span>
+			</a>
+			<a class="mui-icon mui-icon-email mui-pull-right FFF"></a>
+		</header>
+		<!--header End-->
+
+		<div class="mui-content">
+			<div class="mui-slider-cell green-my-center FFF">
+				<div class="mui-table-view-cell mui-media">
+					<img class="mui-media-object mui-pull-left" src="../../image/community_03.png">
+
+					<div class="mui-media-body">
+						绿肺120
+						<p class='mui-ellipsis'>连续签到: 1天</p>
+						<a href="" class="mui-navigate-right">资产:2015</a>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="green-money">
+				<ul class="mui-table-view mui-grid-view">
+					<li class="mui-table-view-cell mui-media mui-col-xs-4">
+						<a href="#">
+							<span>1200</span>
+							<div class="mui-media-body">
+								累计M币
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-4">
+						<a href="#">
+							<span>1200</span>
+							<div class="mui-media-body">
+								绿肺值
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-4">
+						<a href="#">
+							<span>2</span>
+							<div class="mui-media-body">
+								绿肺排名
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<!--content start-->
+			<div class="mui-content my-center">
+				<!--列表 Start -->
+				<ul class="mui-table-view mui-table-view-chevron">
+					<li class="mui-table-view-cell"><a href="" class="mui-navigate-right"><i class="fa fa-heart-o"></i>已关注</a>
+					</li>
+					<li class="mui-table-view-cell"><a href="" class="mui-navigate-right"><i class="fa fa-tags"></i>已领标签</a>
+					</li>
+				</ul>
+
+				<ul class="mui-table-view mui-table-view-chevron margin10">
+					<li class="mui-table-view-cell"><a href="" class="mui-navigate-right"><i class="fa fa-database"></i>我的M币</a>
+					</li>
+					<li class="mui-table-view-cell"><a href="" class="mui-navigate-right"><i class="fa fa-upload"></i>发帖</a>
+					</li>
+					<li class="mui-table-view-cell"><a href="" class="mui-navigate-right"><i class="fa fa-download"></i>回帖</a>
+					</li>
+					<li class="mui-table-view-cell"><a href="" class="mui-navigate-right"><i class="fa fa-star-o"></i>收藏</a>
+					</li>
+				</ul>
+
+				<!--列表 End -->
+
+				<ul class="mui-table-view mui-table-view-striped mui-table-view-condensed padding10">
+					<li class="mui-table-view-cell">
+						<div class="mui-table">
+							<div class="mui-table-cell mui-col-xs-10">
+								<h4 class="mui-ellipsis font12">Q: 是正品吗？</h4>
+
+								<p class="mui-ellipsis-3 font12 mui-text-left">A: 我们保证出售所有商品均为100%正品。作为中国目前最大的我们保证出售所有商品均为100%正品。</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<!--footer start-->
+		<footer>
+			<nav class="mui-bar mui-bar-tab">
+				<a class="mui-tab-item" href="shop-child.html">
+					<span class="mui-icon mui-icon-home"></span>
+					<span class="mui-tab-label">商城</span>
+				</a>
+				<a class="mui-tab-item" href="nav.html">
+					<span class="mui-icon mui-icon-phone"></span>
+					<span class="mui-tab-label">毛屋小时达</span>
+				</a>
+
+				<a class="mui-tab-item mui-active" href="community.html">
+					<span class="mui-icon mui-icon-chat"></span>
+					<span class="mui-tab-label">绿肺社区</span>
+				</a>
+
+				<a class="mui-tab-item" href="myCenter.html">
+					<span class="mui-icon mui-icon-person"></span>
+					<span class="mui-tab-label">个人中心</span>
+				</a>
+			</nav>
+		</footer>
+		<!--footer End-->
+		<script src="../../js/mui.min.js"></script>
+		<script src="../../js/app.js"></script>
+		<script src="../../js/config.js"></script>
+		<script src="../../js/common.js"></script>
+		<script src="../../js/template-native.js"></script>
+		<script type="text/javascript" src="../../js/jquery-1.11.0.js"></script>
+
+	</body>
+
+</html>

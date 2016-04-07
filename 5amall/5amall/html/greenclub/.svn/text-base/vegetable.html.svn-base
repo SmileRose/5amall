@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>一米菜园</title>
+		<link rel="stylesheet" href="../../css/font-awesome/css/font-awesome.min.css" />
+		<link href="../../css/mui.min.css" rel="stylesheet" />
+		<link href="../../css/main.css" rel="stylesheet" />
+		<link href="../../css/style.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav main-color FFF">
+			<a class="mui-btn mui-btn-link mui-btn-nav mui-pull-left" href="javascript:history.go(-1);">
+				<span class="mui-icon mui-icon-left-nav"></span>一米菜园
+			</a>
+			<a class="mui-pull-right mui-icon FFF">
+				<i class="fa fa-question-circle"></i>
+			</a>
+		</header>
+
+		<!--主体内容 start -->
+		<div class="mui-content fl">
+			<!--蔬菜分类 start -->
+			<div class="floor fl margin10">
+				<ul class="mui-table-view mui-grid-view clear fl">
+					<li class="mui-media mui-col-xs-4 mui-col-sm-4 fl borderVege">
+						<a href="">
+							<h5 class="mui-text-center font12">养料</h5>
+							<p class="font10 mui-text-center">新鲜水果特卖</p>
+							<img src="../../image/shop_03.jpg" class="floor-right" alt="">
+						</a>
+					</li>
+
+					<li class="mui-media mui-col-xs-4 mui-col-sm-4 fl borderVege">
+						<a href="">
+							<h5 class="mui-text-center">盆景</h5>
+							<p class="font10 mui-text-center">新鲜水果特卖</p>
+							<img src="../../image/shop_03.jpg" class="floor-right" alt="">
+						</a>
+					</li>
+					<li class="mui-media mui-col-xs-4 mui-col-sm-4 fl">
+						<a href="">
+							<h5 class="mui-text-center">种子</h5>
+							<p class="font10 mui-text-center">新鲜水果特卖</p>
+							<img src="../../image/shop_03.jpg" class="floor-right" alt="">
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!--蔬菜分类 End -->
+			<div class="clear"></div>
+
+			<!-- shop start-->
+			<div class="FFFback font4a">
+				<div class="mui-table-view-cell mui-media item-price FFFback">
+					<img class="vegePhoto mui-pull-left mui-media-object" src="../../image/community_03.png">
+					<div class="mui-media-body">
+						<div class="font14 weight margin10">二分醒@3#</div>
+						<div class="font10 font6b margin10 mui-ellipsis"><i class="fa fa-heart-o"></i>To be or not to be,that is a question</div>
+					</div>
+				</div>
+
+				<div class="mui-table-view-cell mui-media">
+					<div class="mui-col-xs-4 mui-text-center fl borderVege">
+						<a href="">
+							<p class="font12">1200</p>
+							<i class="fa fa-yen"></i>
+						</a>
+					</div>
+					<div class="mui-col-xs-4 mui-text-center fl borderVege">
+						<a href="">
+							<p class=" font12">120</p>
+							<i class="fa fa-heart-o color"></i>
+						</a>
+					</div>
+					<div class="mui-col-xs-4 mui-text-center fl">
+						<a href="">
+							<p class=" font12">120</p>
+							<i class="fa fa-share-alt colorBlue"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- shop End-->
+
+			<!--蔬菜 start -->
+			<div class="margin10 FFFback fl">
+				<div class="mui-table-view mui-grid-view fl">
+					<a href="">
+						<li class="mui-media mui-col-xs-8 mui-col-sm-8 fl">
+							<img src="../../image/vegetable1 (1).jpg" class="onlineaAtivity" alt="">
+						</li>
+						<li class="mui-media mui-col-xs-4 mui-col-sm-4 fl">
+							<img src="../../image/vegetable1 (2).jpg" class="vegetable" alt="">
+						</li>
+						<li class="mui-media mui-col-xs-4 mui-col-sm-4 fl">
+							<img src="../../image/vegetable1 (3).jpg" class="vegetable" alt="">
+						</li>
+					</a>
+				</div>
+				<div class="onlineaAtivity fl FFFback">
+					<div class="mui-media mui-text-left font14 vegeTitle font6b"><i class="fa fa-map-marker"></i>周游青城山</div>
+				</div>
+			</div>
+
+			<div class="margin10 FFFback fl">
+				<div class="mui-table-view mui-grid-view fl">
+					<a href="">
+						<li class="mui-media mui-col-xs-8 mui-col-sm-8 fl">
+							<img src="../../image/vegetable1 (1).jpg" class="onlineaAtivity" alt="">
+						</li>
+						<li class="mui-media mui-col-xs-4 mui-col-sm-4 fl">
+							<img src="../../image/vegetable1 (2).jpg" class="vegetable" alt="">
+						</li>
+						<li class="mui-media mui-col-xs-4 mui-col-sm-4 fl">
+							<img src="../../image/vegetable1 (3).jpg" class="vegetable" alt="">
+						</li>
+					</a>
+				</div>
+
+				<div class="onlineaAtivity fl FFFback">
+					<div class="mui-media mui-text-left font14 vegeTitle font6b"><i class="fa fa-map-marker"></i>周游青城山</div>
+				</div>
+			</div>
+
+		</div>
+
+		<!--footer-->
+		<!--footer start-->
+		<footer>
+			<nav class="mui-bar mui-bar-tab">
+				<a class="mui-tab-item" href="shop-child.html">
+					<span class="mui-icon mui-icon-home"></span>
+					<span class="mui-tab-label">商城</span>
+				</a>
+				<a class="mui-tab-item" href="nav.html">
+					<span class="mui-icon mui-icon-phone"></span>
+					<span class="mui-tab-label">小时达</span>
+				</a>
+
+				<a class="mui-tab-item" href="community.html">
+					<span class="mui-icon mui-icon-chat"></span>
+					<span class="mui-tab-label">绿肺社区</span>
+				</a>
+
+				<a class="mui-tab-item mui-active" href="myCenter.html">
+					<span class="mui-icon mui-icon-person"></span>
+					<span class="mui-tab-label">个人中心</span>
+				</a>
+			</nav>
+		</footer>
+		<!--footer End-->
+		<script src="../../js/mui.min.js"></script>
+		<script src="../../js/app.js"></script>
+		<script src="../../js/config.js"></script>
+		<script src="../../js/common.js"></script>
+		<script src="../../js/template-native.js"></script>
+
+	</body>
+
+</html>

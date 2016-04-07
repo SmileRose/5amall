@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>奶油草莓1100克</title>
+		<link rel="stylesheet" href="../../css/font-awesome/css/font-awesome.min.css" />
+		<link href="../../css/mui.min.css" rel="stylesheet" />
+		<link href="../../css/main.css" rel="stylesheet" />
+		<link href="../../css/style.css" rel="stylesheet" />
+		
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav main-color FFF">
+			<a class="mui-btn mui-btn-link mui-btn-nav mui-pull-left" href="javascript:history.go(-1);">
+				<span class="mui-icon mui-icon-left-nav"></span>奶油草莓1100克
+			</a>
+		</header>
+
+		<div class="mui-content">
+			<!-- 轮播 start-->
+			<div id="slider" class="mui-slider">
+				<div class="item-title FFF mui-table-view">
+					<div class="mui-table-view-cell mui-media">
+						<div class="mui-media-body">
+							奶油草莓1100克
+							<p class='mui-ellipsis font12 FFF'>新鲜奶油奶油草莓1100克顺风包邮</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="mui-slider-group mui-slider-loop">
+					<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+					<div class="mui-slider-item mui-slider-item-duplicate">
+						<a href="#">
+							<img src="../../image/shop_02.jpg">
+						</a>
+					</div>
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="../../image/shop_02.jpg">
+						</a>
+					</div>
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="../../image/shop_02.jpg">
+						</a>
+					</div>
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="../../image/shop_02.jpg">
+						</a>
+					</div>
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="../../image/shop_02.jpg">
+						</a>
+					</div>
+					<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+					<div class="mui-slider-item mui-slider-item-duplicate">
+						<a href="#">
+							<img src="../../image/shop_02.jpg">
+						</a>
+					</div>
+				</div>
+				<div class="mui-slider-indicator mui-text-right">
+					<div class="mui-indicator mui-active"></div>
+					<div class="mui-indicator"></div>
+					<div class="mui-indicator"></div>
+					<div class="mui-indicator"></div>
+				</div>
+			</div>
+			<!--轮播 End -->
+
+			<!--价格 start-->
+			<section class="FFFback mui-table-view">
+				<div class="mui-table-view-cell item-price">
+					<div class="mui-col-xs-8 shop-price fl">
+						¥169.00
+						<strike>¥32.00</strike>
+					</div>
+					<div class="mui-col-xs-4 fl">
+						<a class="mui-btn main-color FFF font12 fr" id="buyNow">立即抢购</a>
+					</div>
+				</div>
+
+				<div class="mui-table-view-cell item-icon">
+					<div class="mui-media mui-col-xs-8 fl">
+						<i class="fa fa-heart-o"></i>
+						<i class="fa fa-link"></i>
+					</div>
+
+					<div class="mui-media mui-col-xs-4 fl font12">
+						<i class="fa fa-users font6b"></i>已售1200
+					</div>
+				</div>
+			</section>
+			<!--价格 End-->
+
+			<!--comment Start-->
+			<section class="FFFback margin10">
+				<div class="mui-table-view-cell item-price">
+					<div class="mui-media mui-col-xs-7 fl item-comment">
+						<span class="oa-contact-position mui-h6">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+						</span>4.9分
+					</div>
+
+					<div class="mui-media mui-col-xs-5 fl font12 right">
+						<a class="color" href="itemComment.html" title="查看全部评价">
+							查看全部150条评价&nbsp;<i class="fa fa-chevron-right"></i>
+						</a>
+					</div>
+				</div>
+
+				<div class="mui-table-view mui-table-view-chevron item-price">
+					<div class="mui-table-view ">
+						<li class="mui-table-view-cell mui-media find-green item-price">
+							<img class="mui-media-object head-photo mui-pull-left" src="../../image/shop_05.png">
+							<div class="mui-media-body find-green-food">
+								<div class="fl service-item-user">唯一0911</div>
+								<div class="fl item-comment">
+									<span class="oa-contact-position mui-h6">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+									</span>
+								</div>
+								<p class='mui-ellipsis clear'>2014-12-12 10:00</p>
+							</div>
+							<div class="font12 service-comment">泡泡面膜就像浴缸里满是泡泡，泡澡的赶脚，特别舒服舒服的同时可以深层清洁面部，清透毛孔的黑色素可莱丝，你！值得拥有！</div>
+						</li>
+					</div>
+				</div>
+
+				<div class="mui-table-view-cell">
+					<ul class="item-comment">
+						<li>美味可口</li>
+						<li>服务态度好</li>
+						<li>味道不错</li>
+						<li>赞</li>
+					</ul>
+				</div>
+			</section>
+			<!--comment End-->
+
+			<!--tab start-->
+			<div class="item-tab font12 margin10 FFFback">
+				<div class="center item-name">
+					<a class="mui-media mui-col-xs-6 fl mui-text-center active" href="javascript:void(0)">图文详情</a>
+					<a class="mui-media mui-col-xs-6 fl mui-text-center" href="javascript:void(0)">商品属性</a>
+				</div>
+
+				<div class="item current">
+					<img src="../../image/shop_02.jpg">
+					<img src="../../image/shop_02.jpg">
+				</div>
+
+				<div class="item mui-table-view-cell mui-media">
+					<div class="item-name-property">
+						<li class="mui-col-xs-6">
+							<dl>
+								<dt>国家:</dt>
+								<dd>中国大陆进口</dd>
+							</dl>
+						</li>
+						<li class="mui-col-xs-6">
+							<dl>
+								<dt>国家:</dt>
+								<dd>中国大陆进口</dd>
+							</dl>
+						</li>
+						<li class="mui-col-xs-6">
+							<dl>
+								<dt>国家:</dt>
+								<dd>中国大陆进口</dd>
+							</dl>
+						</li>
+						<li class="mui-col-xs-6">
+							<dl>
+								<dt>国家:</dt>
+								<dd>中国大陆进口</dd>
+							</dl>
+						</li>
+						<li class="mui-col-xs-6">
+							<dl>
+								<dt>国家:</dt>
+								<dd>中国大陆进口</dd>
+							</dl>
+						</li>
+						<li class="mui-col-xs-6">
+							<dl>
+								<dt>国产:</dt>
+								<dd>国产食品</dd>
+							</dl>
+						</li>
+						<li class="mui-col-xs-6">
+							<dl>
+								<dt>净重:</dt>
+								<dd>208包装</dd>
+							</dl>
+						</li>
+						<li class="mui-col-xs-6">
+							<dl>
+								<dt>口味:</dt>
+								<dd>奶油</dd>
+							</dl>
+						</li>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--tab End-->
+		<!--footer start-->
+		<footer>
+			<nav class="mui-bar mui-bar-tab">
+				<a class="mui-tab-item mui-active" href="shop-child.html">
+					<span class="mui-icon mui-icon-home"></span>
+					<span class="mui-tab-label">商城</span>
+				</a>
+				<a class="mui-tab-item" href="nav.html">
+					<span class="mui-icon mui-icon-phone"></span>
+					<span class="mui-tab-label">毛屋小时达</span>
+				</a>
+
+				<a class="mui-tab-item" href="community.html">
+					<span class="mui-icon mui-icon-chat"></span>
+					<span class="mui-tab-label">绿肺社区</span>
+				</a>
+
+				<a class="mui-tab-item" href="myCenter.html">
+					<span class="mui-icon mui-icon-person"></span>
+					<span class="mui-tab-label">个人中心</span>
+				</a>
+			</nav>
+		</footer>
+		<!--footer End-->
+
+		<!--弹出框 start-->
+		<div class="window">
+			<div class="popover padding10">
+				<div class="mui-col-xs-11 mui-media mui-text-center center fl">
+					<div class="content text">
+						<div class="mui-col-xs-10 mui-media center">
+							<div class="mui-col-xs-4 mui-media fl mui-text-left">
+								<img class="interest" src="../../image/shop_05.png" alt="">
+							</div>
+							<div class="mui-col-xs-8 mui-media fl mui-text-left">
+								奶油草莓1100克
+							</div>
+						</div>
+					</div>
+
+					<!--数量 start-->
+					<div class="content text clear item-price fl">
+						<div class="mui-col-xs-10 mui-media center">
+							<div class="mui-col-xs-4 mui-media fl mui-text-center pad10 margin10">数量</div>
+
+							<div class="mui-col-xs-8 mui-media fl mui-text-left ">
+								<div class="inputNUm fl">
+									<span id="minis">-</span>
+									<input type="text" value="1" id="number">
+									<span id="plus">+</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--数量 End-->
+
+					<!--购物车或者立即购买-->
+					<div class="content text clear margin10 fl">
+						<div class="mui-col-xs-10 mui-media center margin10">
+							<a href="cart.html" class="mui-btn mui-col-xs-5 main-back font4a font12 fl">加入购物车</a>
+							<a href="order.html" class="mui-btn mui-col-xs-5 main-color FFF font12 fr">立即购买</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--弹出框 End-->
+		<script src="../../js/mui.min.js"></script>
+		<script src="../../js/app.js"></script>
+		<script src="../../js/config.js"></script>
+		<script src="../../js/common.js"></script>
+		<script src="../../js/template-native.js"></script>
+		<script type="text/javascript" src="../../js/jquery-1.11.0.js" ></script>
+
+		<script>
+			$(document).ready(function() {
+					/*
+					 * 左上角的问号显示隐藏内容*/
+					var windowHeight = $(window).height();
+					$(".window").css('height', windowHeight);
+					var windowShad = $(".window");
+					var popover = $(".popover");
+					$("#buyNow").click(function() {
+						$(windowShad).show();
+						$(popover).fadeIn();
+						$(document).one("click", function() { //对document绑定一个影藏Div方法
+							$(windowShad).hide();
+						});
+						event.stopPropagation(); //阻止事件向上冒泡	
+						$(popover).click(function(event) {
+							event.stopPropagation(); //阻止事件向上冒泡
+						});
+					});
+				})
+				//数量加减
+				//数量加减
+			 $(function() {
+				$("#plus").click(function() {
+					var n = $("#number").val();
+					var num = parseInt(n) + 1;
+					if (num == 0) {
+						alert("cc");
+					}
+					$("#number").val(num);
+				});
+				$("#minis").click(function() {
+					var n = $("#number").val();
+					var num = parseInt(n) - 1;
+					if (num == 0) {
+						num = parseInt(n);
+					}
+					$("#number").val(num);
+				});
+			});
+			 //tab
+			$(function() {
+				$(".item").hide();
+				$(".item.current").show();
+				$(".item-name a").each(function() {
+					$(this).click(function() {
+						var index = $(this).index();
+						$(this).addClass("active");
+						$(this).parent().siblings(".item").eq(index).show()
+							.siblings(".item").hide();
+					});
+				});
+			});
+			mui.init();
+			var gallery = mui('.mui-slider');
+			gallery.slider({
+				interval: 5000 //自动轮播周期，若为0则不自动播放，默认为0；
+			});
+		</script>
+
+	</body>
+
+</html>

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>发现绿肺子页面</title>
+		<link rel="stylesheet" href="../../css/font-awesome/css/font-awesome.min.css" />
+		<link href="../../css/mui.min.css" rel="stylesheet" />
+		<link href="../../css/main.css" rel="stylesheet" />
+		<link href="../../css/style.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav main-color FFF">
+			<a class="mui-btn mui-btn-link mui-btn-nav mui-pull-left" href="javascript:history.go(-1);">
+				<span class="mui-icon mui-icon-left-nav"></span>发现绿肺子页面
+			</a>
+		</header>
+
+		<div class="mui-content">
+			<!--分類 start-->
+
+			<div class="mui-table-view">
+				<div class="mui-table-view-cell mui-media find-green FFFback item-price">
+					<a href="javascript:;">
+
+						<div class="mui-media-body find-green-food color">
+							特产零食手撕牛肉干粒片条休闲特价美食小吃
+							<p class='mui-ellipsis font10'>2014-12-12 10:10</p>
+							<p class='mui-ellipsis'>四川省成都市</p>
+
+						</div>
+					</a>
+
+					<div class="mui-col-xs-4 mui-media fl font12 ">
+						<i class="fa fa-heart color font14"></i>123
+					</div>
+					<div class="mui-col-xs-4 mui-media fl font12 ">
+						<i class="fa fa-share font14"></i> 895
+					</div>
+					<div class="mui-col-xs-4 mui-media fl font12 ">
+						<i class="fa fa-comment colorBlue font14"></i>1024
+					</div>
+				</div>
+
+				<div class="shop-sort">
+					<ul class="mui-table-view">
+						<li class="mui-table-view-cell mui-media">
+							<a href="messageDetail.html">
+								<img class="mui-media-object mui-pull-left" src="../../image/img/nav-1.png">
+								<div class="mui-media-body font14 find-green-food">
+									<div class=" normal">
+										唯一0911
+									</div>
+									<div class="green-life-user-like fr">
+										<button class="mui-btn attention color font12">关注</button>
+									</div>
+									<p class='mui-ellipsis'>
+										<i class="fa fa-tags"></i>
+										<i class="blue-tag">烹饪</i>
+										<i class="pink-tag">旅游</i>
+									</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="find-green-item margin10">
+				<div class="mui-table-view ">
+
+					<li class="mui-table-view-cell mui-media find-green item-price FFFback fl">
+						<a href="greenDetail.html">
+							<img class="mui-media-object head-photo mui-pull-left" src="../../image/headphoto.jpg">
+							<div class="mui-media-body find-green-food color">
+								特产零食手撕牛肉干粒片条休闲特价美食小吃
+								<p class='mui-ellipsis'>2014-12-12 10:10</p>
+								<p class='mui-ellipsis'>四川成都高新区</p>
+							</div>
+						</a>
+
+						<ul class="mui-table-view mui-grid-view find-green-pic item-price fl clear">
+							<a href="greenDetail.html">
+								<li class="mui-table-view-cell mui-media mui-col-xs-4">
+									<img class="mui-media-object" src="../../image/shop_05.png" alt="">
+								</li>
+								<li class="mui-table-view-cell mui-media mui-col-xs-4">
+									<img class="mui-media-object" src="../../image/shop_05.png" alt="">
+								</li>
+								<li class="mui-table-view-cell mui-media mui-col-xs-4">
+									<img class="mui-media-object" src="../../image/shop_05.png" alt="">
+								</li>
+							</a>
+						</ul>
+
+						<ul class="mui-table-view mui-grid-view mui-media FFFback greenDetail">
+							<li class="mui-col-xs-4 fl font14 mui-text-center borderVege">
+								<a href="#">
+									<i class="fa fa-heart border"></i>喜欢
+								</a>
+							</li>
+							<li class="mui-col-xs-4 fl font14 mui-text-center borderVege">
+								<a href="#">
+									<i class="fa fa-share border"></i>转发
+								</a>
+							</li>
+							<li class="mui-col-xs-4 fl font14 mui-text-center">
+								<a href="#">
+									<i class="fa fa-comment border"></i>评价
+								</a>
+							</li>
+						</ul>
+					</li>
+					<!--发现绿肺 End-->
+				</div>
+
+				<div class="mui-table-view-cell FFFback item-price">
+					<div class="mui-col-xs-11 mui-media clear">
+						<div class="mui-col-xs-3 fl font14 padding10">
+							<i class="fa fa-heart color"></i>123
+						</div>
+						<div class="mui-col-xs-9 mui-col-sm-10 hidden">
+							<a href="">
+								<img src="../../image/shop_05.png" class="interestLike">
+							</a>
+							<a href="">
+								<img src="../../image/find-green.png" class="interestLike">
+							</a>
+							<a href="">
+								<img src="../../image/find-green.png" class="interestLike">
+							</a>
+							<a href="">
+								<img src="../../image/shop_05.png" class="interestLike">
+							</a>
+							<a href="">
+								<img src="../../image/find-green.png" class="interestLike">
+							</a>
+							<a href="">
+								<img src="../../image/shop_05.png" class="interestLike">
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<!--个人积分 start-->
+
+				<!--tab0 start -->
+				<div class="mui-table-view-cell FFFback">
+					<div class="mui-col-xs-2 fl font14 padding10 colorBlue">
+						<i class="fa fa-comment-o colorBlue"></i>356
+					</div>
+
+					<!--图片话题 start-->
+					<div class="mui-table-view FFFback mui-col-xs-10 fr">
+						<li class="mui-table-view-cell mui-media item-price">
+							<a href="javascript:;" class="">
+								<img class="mui-media-object head-photo mui-pull-left" src="../../image/headphoto.jpg">
+								<div class="mui-media-body">
+									<h4 class="font12 normal">桥上看风景										
+									<span class="font10 fr font6b">
+										<i class="fa fa-clock-o"></i>
+										2小时前
+									</span>	
+								</h4>
+									<p class='mui-ellipsis font10'>发疯似的,假冒危险</p>
+								</div>
+							</a>
+						</li>
+
+						<li class="mui-table-view-cell mui-media item-price">
+							<a href="javascript:;" class="">
+								<img class="mui-media-object head-photo mui-pull-left" src="../../image/headphoto.jpg">
+								<div class="mui-media-body">
+									<h4 class="font12 normal">桥上看风景										
+									<span class="font10 fr font6b">
+										<i class="fa fa-clock-o"></i>
+										2小时前
+									</span>
+								</h4>
+									<p class='mui-ellipsis font10'>发疯似的,假冒危险</p>
+								</div>
+							</a>
+						</li>
+
+						<li class="mui-table-view-cell mui-media item-price">
+							<a href="javascript:;" class="">
+								...
+							</a>
+						</li>
+
+					</div>
+					<!--旅行 End-->
+				</div>
+			</div>
+			<!--First item End -->
+
+		</div>
+		
+		
+		
+
+		<!--footer start-->
+		<footer>
+			<nav class="mui-bar mui-bar-tab">
+				<a class="mui-tab-item" href="shop-child.html">
+					<span class="mui-icon mui-icon-home"></span>
+					<span class="mui-tab-label">商城</span>
+				</a>
+				<a class="mui-tab-item" href="nav.html">
+					<span class="mui-icon mui-icon-phone"></span>
+					<span class="mui-tab-label">毛屋小时达</span>
+				</a>
+
+				<a class="mui-tab-item mui-active" href="community.html">
+					<span class="mui-icon mui-icon-chat"></span>
+					<span class="mui-tab-label">绿肺社区</span>
+				</a>
+
+				<a class="mui-tab-item" href="myCenter.html">
+					<span class="mui-icon mui-icon-person"></span>
+					<span class="mui-tab-label">个人中心</span>
+				</a>
+			</nav>
+		</footer>
+		<!--footer End-->
+		<script src="../../js/mui.min.js"></script>
+		<script src="../../js/app.js"></script>
+		<script src="../../js/config.js"></script>
+		<script src="../../js/common.js"></script>
+		<script src="../../js/template-native.js"></script>
+		<script type="text/javascript" src="../../js/jquery-1.11.0.js"></script>
+	</body>
+
+</html>

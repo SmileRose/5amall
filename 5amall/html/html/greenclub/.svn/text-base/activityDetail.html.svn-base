@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>活动详情页</title>
+		<link rel="stylesheet" href="../../css/font-awesome/css/font-awesome.min.css" />
+		<link href="../../css/mui.min.css" rel="stylesheet" />
+		<link href="../../css/main.css" rel="stylesheet" />
+		<link href="../../css/style.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<!--header start-->
+		<header class="mui-bar mui-bar-nav main-color FFF">
+			<a class="mui-btn mui-btn-link mui-btn-nav mui-pull-left" href="javascript:history.go(-1);">
+				<span class="mui-icon mui-icon-left-nav"></span>活动详情页
+			</a>
+		</header>
+		<!--header End-->
+
+		<div class="mui-content">
+			<!-- 图片-->
+			<div class="item-tab">
+				<img src="../../image/shop_02.jpg" alt="">
+			</div>
+			<!--轮播 End -->
+
+			<!--价格 start-->
+			<section class="FFFback mui-table-view">
+				<div class="mui-table-view-cell">
+					<div class="mui-col-xs-8 fl font12">
+						周游青城山
+					</div>
+					<div class="mui-col-xs-4 fl">
+						<a class="mui-btn main-color FFF font12 fr">立即申请</a>
+					</div>
+				</div>
+
+				<div class="mui-table-view-cell item-icon">
+					<div class="mui-media mui-col-xs-8 fl">
+						名额:<span class="color">1200</span>
+					</div>
+
+					<div class="mui-media mui-col-xs-4 fl font12">
+						申请人数:<span class="color">1200</span>
+					</div>
+				</div>
+			</section>
+			<!--价格 End-->
+
+			<!--活动详情 Start-->
+			<section class="FFFback margin10">
+				<div class="mui-table-view mui-table-view-chevron item-price">
+					<div class="mui-table-view ">
+						<li class="mui-table-view-cell mui-media find-green">
+
+							<div class="mui-media-body padding10">
+								<div class="fl color font14">活动奖品</div>
+								<p class='mui-ellipsis clear font12 font4a'>iPhone6一部</p>
+							</div>
+							<div class="mui-media-body padding10">
+								<div class="fl color font14">活动时间</div>
+								<p class='mui-ellipsis clear font12 font4a'>2015年10月12日 10点整</p>
+							</div>
+							<div class="mui-media-body padding10">
+								<div class="fl font14">活动说明</div>
+								<p class='mui-ellipsis clear font12 font4a'>
+									1.年满18岁，有美术学习经历者优先，兴趣爱好者需申请实训；
+									<br/> 2. 对计算机、网站设计、游戏美工、IT行业感兴趣；
+									<br/> 3..有较强的学习能力和理解能力；
+									<br/> 3. 经考核合格直接上岗，不合格者需经过培训后上岗
+									<br/>
+								</p>
+							</div>
+						</li>
+					</div>
+				</div>
+			</section>
+			<!--活动详情结束-->
+		</div>
+
+		<!--footer start-->
+		<footer>
+			<nav class="mui-bar mui-bar-tab">
+				<a class="mui-tab-item mui-active" href="shop-child.html">
+					<span class="mui-icon mui-icon-home"></span>
+					<span class="mui-tab-label">商城</span>
+				</a>
+				<a class="mui-tab-item" href="nav.html">
+					<span class="mui-icon mui-icon-phone"></span>
+					<span class="mui-tab-label">小时达</span>
+				</a>
+
+				<a class="mui-tab-item" href="community.html">
+					<span class="mui-icon mui-icon-chat"></span>
+					<span class="mui-tab-label">绿肺社区</span>
+				</a>
+
+				<a class="mui-tab-item" href="myCenter.html">
+					<span class="mui-icon mui-icon-person"></span>
+					<span class="mui-tab-label">个人中心</span>
+				</a>
+			</nav>
+		</footer>
+		<!--footer End-->
+
+		<script src="../../js/mui.min.js"></script>
+		<script src="../../js/app.js"></script>
+		<script src="../../js/config.js"></script>
+		<script src="../../js/common.js"></script>
+		<script src="../../js/template-native.js"></script>
+
+		<script>
+			 //tab
+			mui.init();
+			var gallery = mui('.mui-slider');
+			gallery.slider({
+				interval: 5000 //自动轮播周期，若为0则不自动播放，默认为0；
+			});
+		</script>
+
+	</body>
+
+</html>

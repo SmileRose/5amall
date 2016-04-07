@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>发布活动</title>
+		<link rel="stylesheet" href="../../css/font-awesome/css/font-awesome.min.css" />
+		<link href="../../css/mui.min.css" rel="stylesheet" />
+		<link href="../../css/main.css" rel="stylesheet" />
+		<link href="../../css/form.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav main-color FFF">
+			<a class="mui-btn mui-btn-link mui-btn-nav mui-pull-left" href="javascript:history.go(-1);">
+				<span class="mui-icon mui-icon-left-nav"></span>发布活动
+			</a>
+			<a class="mui-action-back mui-icon mui-icon-location mui-pull-right FFF"></a>
+		</header>
+
+		<!--表单开始-->
+		<div class="mui-content FFFback">
+			<div class="activity font12">
+				<form action="" method="post" name="">
+					<div>
+						<input type="text" class="mui-input-clear font12 find-green-title" placeholder="编辑标题">
+					</div>
+
+					<div class="mui-input-row font12 find-green-pic">
+						<textarea placeholder="说点什么，让大家看到(10-600字)"></textarea>
+						<li>
+							<img src="../../image/community_05.png">
+							<i class="fa fa-times-circle"></i>
+						</li>
+						<li>
+							<img src="../../image/community_05.png">
+							<i class="fa fa-times-circle"></i>
+						</li>
+						<li>
+
+							<i class="fa fa-plus"></i>
+						</li>
+
+					</div>
+
+					<div class="mui-button-row">
+						<input type="submit" class="mui-col-sm-12 mui-col-xs-12 mui-btn FFF" value="提交">
+					</div>
+				</form>
+			</div>
+
+		</div>
+		<!--表单End-->
+
+		<script src="../../js/mui.min.js"></script>
+		<script src="../../js/app.js"></script>
+		<script src="../../js/config.js"></script>
+		<script src="../../js/common.js"></script>
+		<script src="../../js/template-native.js"></script>
+		<script type="text/javascript" src="../../js/jquery-1.11.0.js"></script>
+		<script>
+			mui.init();
+		</script>
+
+	</body>
+
+</html>

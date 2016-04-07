@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>生命资产管理</title>		
+		<link rel="stylesheet" href="../../css/font-awesome/css/font-awesome.min.css" />
+		<link href="../../css/mui.min.css" rel="stylesheet" />
+		<link href="../../css/main.css" rel="stylesheet" />
+		<link href="../../css/style.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav main-color FFF">
+			<a class="mui-btn mui-btn-link mui-btn-nav mui-pull-left" href="javascript:history.go(-1);">
+				<span class="mui-icon mui-icon-left-nav"></span>生命资产管理
+			</a>
+		</header>
+
+		<div class="mui-content margin10">
+			<!--upload photo start-->
+			<div class="find-green-item FFFback">			
+				<div class="green-activity mui-text-center item-price font14">
+					<a href="addFamily.html">
+						<h1 class="fa fa-plus font16"></h1>添加家人朋友
+					</a>
+				</div>
+			</div>
+			<!--upload photo End-->
+
+			<!--item Start-->
+			<div class="find-green-item">
+				<div class="mui-table-view font14">
+					<li class="mui-table-view-cell mui-media find-green FFFback item-price ">
+						<a href="health.html" title="">
+							<div class="mui-col-xs-8 mui-media fl">朋友A</div>
+							<div class="mui-col-xs-4 mui-media fr">阴虚体质<i class="fa fa-chevron-right font6b"></i></div>
+						</a>				
+					</li>
+					
+					<li class="mui-table-view-cell mui-media find-green FFFback">
+						<a href="health.html" title="">
+							<div class="mui-col-xs-8 mui-media fl">朋友A</div>
+							<div class="mui-col-xs-4 mui-media fr">阴虚体质<i class="fa fa-chevron-right font6b"></i></div>
+						</a>				
+					</li>
+				<!--发现绿肺 End-->
+				</div>
+			</div>			
+		</div>
+
+		<!--footer start-->
+		<footer>
+			<nav class="mui-bar mui-bar-tab">
+				<a class="mui-tab-item" href="shop-child.html">
+					<span class="mui-icon mui-icon-home"></span>
+					<span class="mui-tab-label">商城</span>
+				</a>
+				<a class="mui-tab-item" href="nav.html">
+					<span class="mui-icon mui-icon-phone"></span>
+					<span class="mui-tab-label">小时达</span>
+				</a>
+
+				<a class="mui-tab-item" href="community.html">
+					<span class="mui-icon mui-icon-chat"></span>
+					<span class="mui-tab-label">绿肺社区</span>
+				</a>
+
+				<a class="mui-tab-item mui-active" href="myCenter.html">
+					<span class="mui-icon mui-icon-person"></span>
+					<span class="mui-tab-label">个人中心</span>
+				</a>
+			</nav>
+		</footer>
+		<!--footer End-->
+		<script src="../../js/mui.min.js"></script>
+		<script src="../../js/app.js"></script>
+		<script src="../../js/config.js"></script>
+		<script src="../../js/common.js"></script>
+		<script src="../../js/template-native.js"></script>
+
+	</body>
+
+</html>

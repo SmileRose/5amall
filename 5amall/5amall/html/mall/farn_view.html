@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>启动页</title>
+		<link rel="stylesheet" href="../../css/font-awesome/css/font-awesome.min.css" />
+		<link href="../../css/mui.min.css" rel="stylesheet" />
+		<link href="../../css/main.css" rel="stylesheet" />
+	</head>
+	<style>
+		.mui-content {
+			background: #FFF url('../../image/travel.png') no-repeat;
+			background-size: 100% auto;
+			z-index: 0;
+			position: relative;
+			padding-bottom: 0
+		}
+		.travel {
+			border: none;
+			z-index: 2;
+			margin-top: 70%;
+			margin-bottom: 0;
+			background-color: #FFF;
+			position: relative;
+			word-wrap: break-word;
+			word-break: break-word;
+		}
+		.traDetail p {
+			padding: 5px 0;
+			margin: 0;
+			line-height: 18px;
+		}
+		.otherTravel {
+			margin: 10px auto 20px auto;
+		}
+		.otherTravel a {
+			margin: 10px auto 20px auto;
+		}
+		.otherTravel a img {
+			width: 100%;
+		}
+		.canjia {
+			width: 100%;
+			line-height: 2em;
+			border-radius: 8px;
+		}
+		.window {
+			background: rgba(100, 100, 100, 0.8);
+			width: 100%;
+			z-index: 14;
+			position: fixed;
+			top: 0;
+			left: 0;
+			display: none;
+		}
+		.win-hidden {
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			z-index: 15;
+			background: #FFF;
+			box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1) inset;
+			display: block;
+			width: 100%;
+		}
+		.act-hidden {
+			width: 90%;
+			display: block;
+			position: fixed;
+			top: 50%;
+			margin-top: -120px;
+			left: 5%;
+			z-index: 15;
+			background: #FFF;
+			padding: 10px 0;
+			box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1) inset;
+			border-radius: 8px;
+		}
+		.act-hidden fieldset {
+			border: none;
+			padding: 0.5em 0;
+			line-height: 2em;
+			line-height: 3em;
+			font-size: 12px;
+		}
+		.act-hidden fieldset input[type=text],
+		.act-hidden fieldset input[type=number] {
+			height: 3em;
+			line-height: 3em;
+			border-radius: 4px;
+			border: none;
+			outline: none;
+			padding: 0 0.5em;
+			font-size: 10px;
+			float: left;
+			border: 1px solid #ccc;
+			width: 18em;
+		}
+		.act-hidden fieldset input[type=checkbox] {
+			line-height: 3em;
+			padding-right: 2em;
+			vertical-align: middle;
+			padding: 0 .5em;
+		}
+		.act-hidden fieldset label {
+			width: 5em;
+			display: block;
+			float: left;
+			padding-right: 0.5em;
+			font-size: 12px;
+			text-align: right;
+			line-height: 3em;
+		}
+		.act-hidden fieldset input[name=address] {
+			width: 60%;
+			border: 1px solid #ccc;
+		}
+		input[type=number] {
+			width: 30%;
+			border: 1px solid #ccc;
+		}
+	</style>
+	</head>
+
+	<body>
+		<!--header start-->
+		<header class="mui-bar mui-bar-nav main-color FFF">
+			<a class="mui-btn mui-btn-link mui-btn-nav mui-pull-left" href="javascript:history.go(-1);">
+				<span class="mui-icon mui-icon-left-nav"></span>绿肺活动详情页
+			</a>
+		</header>
+		<!--header End-->
+		<div class="mui-content fl FFFback">
+			<div class="travel mui-col-xs-10 mui-media center">
+				<!--详情-->
+				<div class="traDetail font10 font4a">
+					<p class="font10 font4a padding10">活动是由共同目的联合起来并完成一定社会职能的动作的总和。活动由目的、动机和动作构成，具有完整的结构系统。苏联心理学家从20年代起就对活动进行了一系列研究。其中Α.Н</p>
+					<p class="font10 font4a">
+						活动时间:2015-10-10
+						<br/> 活动地点:成都市二环路
+					</P>
+				</div>
+			</div>
+
+			<div class=" mui-col-xs-10 mui-media center">
+				<a class="mui-btn main-color FFF font14 margin10 canjia" id="goNow">我要报名</a>
+			</div>
+
+			<!--底部的三张图-->
+			<div class="mui-col-xs-11 mui-media otherTravel center">
+				<div class="mui-col-xs-4 mui-media center fl">
+					<a href="" class="mui-text-center">
+						<img src="../../image/travel (1).jpg" alt="">
+					</a>
+				</div>
+				<div class="mui-col-xs-4 mui-media center fl">
+					<a href="">
+						<img src="../../image/travel (2).jpg" alt="">
+					</a>
+				</div>
+				<div class="mui-col-xs-4 mui-media center fl">
+					<a href="">
+						<img src="../../image/travel (3).jpg" alt="">
+					</a>
+				</div>
+			</div>
+
+			<!--End  -->
+
+			<!--隐藏部分  start-->
+			<div class="window">
+				<div class="popover padding10">
+					<div class="act-hidden mui-media">
+						<fieldset>
+							<label>姓名</label>
+							<input type="text" name="farmName" placeholder="详细地址" />
+						</fieldset>
+						<fieldset>
+							<label>性别</label>
+							<input type="checkbox" name="farmSex" id="address" value="男" checked />男&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<input type="checkbox" name="farmSex" id="address" value="女" />女
+						</fieldset>
+						<fieldset>
+							<label>联系电话</label>
+							<input type="text" name="phone" id="mobile" placeholder="联系电话" />
+						</fieldset>
+						<fieldset>
+							<label>身份证号</label>
+							<input type="text" name="CardNo" id="CardNo" placeholder="身份证号" />
+						</fieldset>
+						<div class=" mui-col-xs-11 mui-media center">
+							<a class="mui-btn font14 margin10 canjia" id="goNow">确认</a>
+						</div>
+
+					</div>
+					<!--隐藏部分  End-->
+				</div>
+			</div>
+		</div>
+
+		<script src="../../js/zepto.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				/*
+				 * 左上角的问号显示隐藏内容*/
+				var windowHeight = $(window).height();
+				$(".window").css('height', windowHeight);
+				var windowShad = $(".window");
+				var popover = $(".act-hidden");
+				console.log(popover.height())
+				$("#goNow").click(function() {
+					$(windowShad).show();
+					$(popover).show();
+					$(document).one("click", function() { //对document绑定一个影藏Div方法
+						$(windowShad).hide();
+					});
+					event.stopPropagation(); //阻止事件向上冒泡	
+					$(popover).click(function(event) {
+						event.stopPropagation(); //阻止事件向上冒泡
+					});
+					$(".action").css("height", "auto");
+					checkName();
+					checkAddress();
+					checkSubmitMobil();
+					isCardNo();
+				});
+				//验证手机号码 
+				function checkSubmitMobil() {
+						if ($("#mobile").val() == "") {
+							$("#mobile").focus();
+							return false;
+						}
+						if (!$("#mobile").val().match(/^[1]([3][0-9]{1}|59|58|88|89)[0-9]{8}$/)) {
+							alert("手机号码格式不正确！");
+							$("#mobile").focus();
+							return false;
+						}
+						return true;
+					}
+					//身份证号校验
+
+				function isCardNo(card) {
+						if ($("#CardNo").val() == "") {
+							$("#CardNo").focus();
+							return false;
+						}
+						// 身份证号码为15位或者18位，15位时全为数字，18位前17位为数字，最后一位是校验位，可能为数字或字符X  
+						var reg = /(^\d{15}$)|(^\d{18}$)|(^\d{17}(\d|X|x)$)/;
+						if (reg.test(card) === false) {
+							alert("身份证输入不合法");
+							return false;
+						}
+						return true;
+					}
+					//姓名校验
+
+				function checkAddress() {
+					if ($("input[name=farmName]").val() == "") {
+						//alert("地址不能为空")
+						$("input[name=farmName").focus();
+						return false;
+					}
+				}
+
+				function checkName() {
+					if ($("input[name=IDnumber]").val() == "") {
+						//alert("地址不能为空")
+						$("input[name=IDnumber").focus();
+						return false;
+					}
+				}
+			});
+		</script>
+
+	</body>
+
+</html>

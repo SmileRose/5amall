@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>添加标签</title>
+		<link rel="stylesheet" href="../../css/font-awesome/css/font-awesome.min.css" />
+		<link href="../../css/mui.min.css" rel="stylesheet" />
+		<link href="../../css/main.css" rel="stylesheet" />
+		<link href="../../css/style.css" rel="stylesheet" />
+		<script type="text/javascript" src="../../js/jquery-1.11.0.js"></script>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav main-color FFF">
+			<a class="mui-btn mui-btn-link mui-btn-nav mui-pull-left" href="javascript:history.go(-1);">
+				<span class="mui-icon mui-icon-left-nav"></span>添加标签
+			</a>
+		</header>
+
+		<!--标签 start -->
+		<div class="mui-content font12">
+			<div id="Gallery" class="mui-slider margin10 FFFback tag-page">
+				<div class="mui-slider-group">
+					<div class="mui-slider-item">
+						<!--兴趣标签start -->
+						<div class="center tags-tips font14">兴趣标签:<span>您是什么粉</span>快昭告天下吧</div>
+						<div class="add-tags tags">
+							<li>旅行<i class="fa fa-times-circle del-li-i-btn"></i>
+							</li>
+							<li>烹饪<i class="fa fa-times-circle del-li-i-btn"></i>
+							</li>
+							<li>烹饪<i class="fa fa-times-circle del-li-i-btn"></i>
+							</li>
+							<li>烹饪测试<i class="fa fa-times-circle del-li-i-btn"></i>
+							</li>
+						</div>
+
+						<div class="tags allTags">
+							<li>旅行</li>
+							<li>烹饪</li>
+							<li>素食</li>
+							<li>健身</li>
+							<li>育儿</li>
+							<li>美食</li>
+							<li>旅行</li>
+							<li>烹饪</li>
+							<li>素食</li>
+							<li>健身</li>
+							<li>育儿</li>
+							<li>美食</li>
+							<li>旅行</li>
+							<li>烹饪</li>
+							<li>素食</li>
+							<li>健身</li>
+							<li>育儿</li>
+							<li>美食</li>
+							<li>素食</li>
+							<li>健身</li>
+						</div>
+					</div>
+					<!--兴趣标签 End-->
+
+					<div class="mui-slider-item person-tags">
+						<!--兴趣标签start -->
+						<div class="center tags-tips font14">人格标签:<span>您是什么粉</span>快昭告天下吧</div>
+						<div class="add-tags tags">
+							<li>人生理想<i class="fa fa-times-circle"></i>
+							</li>
+							<li>主妇<i class="fa fa-times-circle"></i>
+							</li>
+							</li>
+							<li>孩子爸<i class="fa fa-times-circle"></i>
+							</li>
+						</div>
+
+						<div class="tags allTags">
+							<li>人生理想</li>
+							<li>主妇</li>
+							<li>辣妈</li>
+							<li>孩子爸</li>
+							<li>白领</li>
+							<li>烹饪</li>
+							<li>素食</li>
+							<li>健身</li>
+							<li>育儿</li>
+							<li>美食</li>
+							<li>旅行</li>
+							<li>烹饪</li>
+							<li>素食</li>
+							<li>健身</li>
+							<li>育儿</li>
+							<li>美食</li>
+							<li>素食</li>
+							<li>健身</li>
+						</div>
+					</div>
+					<div class="mui-slider-item">
+						<div class="tags allTags">
+							<li>旅行</li>
+							<li>烹饪</li>
+							<li>素食</li>
+							<li>健身</li>
+							<li>育儿</li>
+							<li>美食</li>
+							<li>旅行</li>
+							<li>烹饪</li>
+							<li>素食</li>
+							<li>健身</li>
+							<li>育儿</li>
+							<li>美食</li>
+						</div>
+					</div>
+
+				</div>
+				<div class="tag-dot-slide mui-slider-indicator">
+					<div class="mui-indicator mui-active"></div>
+					<div class="mui-indicator"></div>
+					<div class="mui-indicator"></div>
+				</div>
+			</div>
+		</div>
+
+		<script src="../../js/mui.min.js"></script>
+		<script src="../../js/app.js"></script>
+		<script src="../../js/config.js"></script>
+		<script src="../../js/common.js"></script>
+		<script src="../../js/template-native.js"></script>
+
+		<script>			
+			$(function() {
+				$(".mui-slider-item .tags.allTags li").click(function() {
+					var tags = $(this).text();
+					var tagsInterest = "<li class='ni'>" + tags + "<i class='fa fa-times-circle del-li-i-btn'></i>" + "</li>";
+					$(this).parents(".mui-slider-item").children(".add-tags").append(tagsInterest);
+				});
+				$('body').delegate('.del-li-i-btn', 'click', function() {
+					$(this).parent("li").remove();
+				});
+			});
+		</script>
+		
+	</body>
+
+</html>

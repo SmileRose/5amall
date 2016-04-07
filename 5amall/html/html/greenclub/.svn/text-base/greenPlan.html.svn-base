@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>生命体验</title>
+		<link rel="stylesheet" href="../../css/font-awesome/css/font-awesome.min.css" />
+		<link href="../../css/mui.min.css" rel="stylesheet" />
+		<link href="../../css/main.css" rel="stylesheet" />
+		<link href="../../css/style.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<!--header start -->
+		<header class="mui-bar mui-bar-nav main-color FFF">
+			<a class="mui-btn mui-btn-link mui-btn-nav mui-pull-left" href="javascript:history.go(-1);">
+				<span class="mui-icon mui-icon-left-nav"></span>绿盾计划
+			</a>
+			<a class="mui-btn mui-btn-link mui-btn-nav mui-pull-right">
+				<span class="fa fa-question-circle"></span>
+			</a>
+		</header>
+		<!--header End -->
+
+		<!--content start -->
+		<div class="mui-content">
+			<div class="font4a greenPlan">
+				<!--圆形图 -->
+				<div class="mui-col-xs-11 mui-media center mui-text-center">
+					<h1 class="font16">消除雾霾，拒绝PM2.5</h1>
+					<em>关注</br>雾霾</em>
+					<span>室外防霾利器：选择防霾口罩</span>
+					<i class="fa fa-chevron-down"></i>
+					<div class="mui-button-row margin10">
+						<a class="mui-btn mui-btn-primary main-color mui-col-xs-10" type="button" onclick="return false;">绿盾口罩</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="FFFback aboutAir clear">
+				<div class="FFFback air fl">
+					<div class="mui-col-xs-7 mui-media mui-text-center fl">
+						<h2>消除雾霾，拒绝PM2.5</h2>
+						<p>虽然国家有关部门已经已经积极的采取措施改善空气质量。人们开始选择的防霾行动来“拒绝PM2.5”但是这些方法真的能达到想要的效果吗？</p>
+					</div>
+					<div class="mui-col-xs-5 mui-media mui-text-center fl">
+						<img src="../../image/shop_05.png" class="tags-tips" />
+					</div>
+				</div>
+				<div class="FFFback airp font4a clear">
+					<p>室外防霾，减少外出。外出时，人们选择带防雾霾口罩，真的有用吗？“防雾霾”“防PM2.5”市场上的各类口罩产品都宣称具有防尘、防霾功能，对PM2.5可以很好的的过滤、国家标准......但是，有关报道：“记者在国家标准化委员会的“国家标准查询”数据库检索发现，防雾霾口罩并没有相关的国家标准也没有相关记录。”价格也不是评测好坏的标准，可能你花很高的价钱，买的也只是阻挡大颗粒微尘的口罩。</p>
+
+					<p>防霾口罩的选择：1.普通的纱布口罩防护空气中的颗粒物效果最差。普通纱布口罩就是纤维口罩，它的阻流原理就是一个机械阻挡作用，通过这一层一层的机械阻挡，可以把大的颗粒阻挡住，但是直径小于5微米的颗粒物阻挡不住，更不用说PM2.5的颗粒物。</p>
+
+					<p>　2.医用外科口罩和医用一次性口罩可以阻挡直径大于4微米的颗粒，他们在医院环境下的口罩密闭性实验室进行的测验结果表明，按照一般的医学标准，对于0.3微米的颗粒物，医用外科口罩透过率为18.3%，普通一次性医用口罩为85.6%，这表明这两种医用口罩对雾霾中细小的颗粒物阻挡效果有限。</p>
+
+				</div>
+			</div>
+		</div>
+
+		<!--footer start-->
+		<footer>
+			<nav class="mui-bar mui-bar-tab">
+				<a class="mui-tab-item mui-active" href="shop-child.html">
+					<span class="mui-icon mui-icon-home"></span>
+					<span class="mui-tab-label">商城</span>
+				</a>
+				<a class="mui-tab-item" href="nav.html">
+					<span class="mui-icon mui-icon-phone"></span>
+					<span class="mui-tab-label">毛屋小时达</span>
+				</a>
+
+				<a class="mui-tab-item" href="community.html">
+					<span class="mui-icon mui-icon-chat"></span>
+					<span class="mui-tab-label">绿肺社区</span>
+				</a>
+
+				<a class="mui-tab-item" href="myCenter.html">
+					<span class="mui-icon mui-icon-person"></span>
+					<span class="mui-tab-label">个人中心</span>
+				</a>
+			</nav>
+		</footer>
+		<!--footer End-->
+
+		<!--弹出框 start-->
+		<div class="window">
+			<div class="popover">
+				<div class="mui-col-xs-11 mui-media mui-text-center center ">
+					<h1>什么是绿餐桌</h1>
+					<div class="content text">为了让自己的应用能够从众多应用中脱颖而出，提高应用的区分度，一些app已经提前顺应了扁平化设计的发展趋势。在苹果正式向世界推出iOS 7之前，以下19款应用已经快人一步了！如果你想学习扁平化设计，不妨先向看看这19款应用。</div>
+				</div>
+			</div>
+		</div>
+		<!--弹出框 End-->
+		<script src="../../js/mui.min.js"></script>
+		<script src="../../js/app.js"></script>
+		<script src="../../js/config.js"></script>
+		<script src="../../js/common.js"></script>
+		<script src="../../js/template-native.js"></script>
+		<script type="text/javascript" src="../../js/jquery-1.11.0.js"></script>
+		<script>
+			$(document).ready(function() {
+				/* 左上角的问号显示隐藏内容*/
+				var windowHeight = $(window).height();
+				$(".window").css('height', windowHeight);
+				var windowShad = $(".window");
+				var popover = $(".popover");
+				$(".fa-question-circle").click(function() {
+					$(windowShad).show();
+					$(popover).fadeIn();
+					$(document).one("click", function() { //对document绑定一个影藏Div方法
+						$(windowShad).hide();
+					});
+					event.stopPropagation(); //阻止事件向上冒泡	
+					$(popover).click(function(event) {
+						event.stopPropagation(); //阻止事件向上冒泡
+					});
+				});
+			})
+		</script>
+
+	</body>
+
+</html>

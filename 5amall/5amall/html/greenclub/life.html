@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>生命体验</title>
+		<link rel="stylesheet" href="../../css/font-awesome/css/font-awesome.min.css" />
+		<link href="../../css/mui.min.css" rel="stylesheet" />
+		<link href="../../css/main.css" rel="stylesheet" />
+		<link href="../../css/style.css" rel="stylesheet" />
+		<script src="../../js/jquery-1.11.0.js"></script>
+		<script type="text/javascript" src="../../js/jquery.circliful.min.js"></script>
+	</head>
+
+	<body class="FFFback">
+		<!--header start -->
+		<header class="mui-bar mui-bar-nav main-color FFF">
+			<a class="mui-btn mui-btn-link mui-btn-nav mui-pull-left" href="javascript:history.go(-1);">
+				<span class="mui-icon mui-icon-left-nav"></span>
+			</a>
+			<a class="mui-btn mui-btn-link mui-btn-nav mui-pull-right">
+				<span class="fa fa-question-circle"></span>
+			</a>
+		</header>
+		<!--header End -->
+
+		<!--content start -->
+		<div class="mui-content FFFback">
+			<div class="life FFF">
+				<!--圆形图 -->
+				<div class="mui-col-xs-6 mui-media fl">
+					<div id="myStat" data-dimension="100" data-text="85分" data-info="test" data-width="2" data-fontsize="24" data-percent="85" data-fgcolor="#FFFFFF" data-bgcolor="#e4e4e4" data-fill="#ff634d">
+					</div>
+				</div>
+				<div class="mui-col-xs-6 mui-media fl">
+					<section class="container">
+						<div class="progress">
+							<span style="width: 20%;"><span>20%</span></span>
+						</div>
+
+						<div class="progress">
+							<span class="green" style="width: 40%;"><span>40%</span></span>
+						</div>
+
+						<div class="progress">
+							<span class="orange" style="width: 60%;"><span>60%</span></span>
+						</div>
+
+						<div class="progress">
+							<span class="red" style="width: 80%;"><span>80%</span></span>
+						</div>
+
+						<div class="progress">
+							<span class="blue" style="width: 100%;"><span>100%</span></span>
+						</div>
+					</section>
+				</div>
+			</div>
+			<!--头像End-->
+
+			<div class="greenTable FFFback">
+				<div class="mui-col-xs-6 mui-media mui-text-center fl lifeItem">
+					<a href="lifeExpe.html">
+						<img src="../../image/img/greenTable (2).jpg" class="tags-tips" />
+						<span>生命体验</span>
+					</a>
+				</div>
+				<div class="mui-col-xs-6 mui-media mui-text-center fl lifeItem">
+					<a href="seasonFood.html">
+						<img src="../../image/img/greenTable (3).jpg" class="tags-tips" />
+						<span>气节食谱</span>
+					</a>
+				</div>
+				<div class="mui-col-xs-6 mui-media mui-text-center fl lifeItem">
+					<a href="greenTable.html">
+						<img src="../../image/img/greenTable (4).jpg" class="tags-tips" />
+						<span>绿餐桌</span>
+					</a>
+				</div>
+				<div class="mui-col-xs-6 mui-media mui-text-center fl lifeItem">
+					<a href="relation.html">
+						<img src="../../image/img/greenTable (1).jpg" class="tags-tips" />
+						<span>生命资产管理</span>
+					</a>
+				</div>
+
+			</div>
+		</div>
+
+		<!--body End-->
+
+		<!--弹出框 start-->
+		<div class="window">
+			<div class="popover">
+				<div class="mui-col-xs-11 mui-media mui-text-center center ">
+					<h1>什么是绿餐桌</h1>
+					<div class="content text">为了让自己的应用能够从众多应用中脱颖而出，提高应用的区分度，一些app已经提前顺应了扁平化设计的发展趋势。在苹果正式向世界推出iOS 7之前，以下19款应用已经快人一步了！如果你想学习扁平化设计，不妨先向看看这19款应用。</div>
+				</div>
+			</div>
+		</div>
+		<!--弹出框 End-->
+		<script src="../../js/mui.min.js"></script>
+		<script src="../../js/app.js"></script>
+		<script src="../../js/config.js"></script>
+		<script src="../../js/common.js"></script>
+		<script src="../../js/template-native.js"></script>
+
+		<script>
+			$(document).ready(function() {
+				//圆形圈
+				$('#myStat').circliful();
+				/*
+				 * 左上角的问号显示隐藏内容*/
+				var windowHeight = $(window).height();
+				$(".window").css('height', windowHeight);
+				var windowShad = $(".window");
+				var popover = $(".popover");
+				$(".fa-question-circle").click(function() {
+					$(windowShad).show();
+					$(popover).fadeIn();
+					$(document).one("click", function() { //对document绑定一个影藏Div方法
+						$(windowShad).hide();
+					});
+					event.stopPropagation(); //阻止事件向上冒泡	
+					$(popover).click(function(event) {
+						event.stopPropagation(); //阻止事件向上冒泡
+					});
+				});
+			})
+		</script>
+
+	</body>
+
+</html>

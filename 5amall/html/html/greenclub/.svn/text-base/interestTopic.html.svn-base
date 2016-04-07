@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>兴趣圈</title>
+		<link rel="stylesheet" href="../../css/font-awesome/css/font-awesome.min.css" />
+		<link href="../../css/mui.min.css" rel="stylesheet" />
+		<link href="../../css/main.css" rel="stylesheet" />
+		<link href="../../css/style.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<!--header start -->
+		<header class="mui-bar mui-bar-nav main-color FFF">
+			<a class="mui-btn mui-btn-link mui-btn-nav mui-pull-left" href="javascript:history.go(-1);">
+				<span class="mui-icon mui-icon-left-nav"></span>兴趣圈
+			</a>
+		</header>
+		<!--header End -->
+
+		<!--content start -->
+		<div class="mui-content">
+			<!--头像 start -->
+			<div class="mui-slider-cell green-my-center my-community-head FFFback item-price">
+				<div class="mui-table-view-cell mui-media">
+					<img class="interest mui-pull-left" src="../../image/community_03.png">
+					<div class="mui-media-body">
+						<div class="font14 weight">二分醒@3#</div>
+						<div class="font10 font6b">To be or not to be</div>
+					</div>
+					<div class="fl">
+						<span class="fl writing font12">
+							<a href="">
+								<i class="fa fa-list-alt"></i>12
+							</a>
+						</span>
+						<span class="fl writing font12">
+							<a href="">
+								<i class="fa fa-comment-o"></i>12365
+							</a>
+						</span>
+					</div>
+				</div>
+			</div>
+			<!--头像End-->
+
+			<div class="mui-content">
+				<!--个人积分 start-->
+				<div class="item-tab font12 FFFback">
+					<div class="center item-name item-price">
+						<a class="mui-media mui-col-xs-6 fl mui-text-center active" href="javascript:void(0)">最新发帖</a>
+						<a class="mui-media mui-col-xs-6 fl mui-text-center" href="javascript:void(0)">最热发帖</a>
+					</div>
+					<!--tab0 start -->
+					<div class="item current FFFback">
+						<!--图片话题 start-->
+						<div class="mui-table-view ">
+							<li class="mui-table-view-cell mui-media item-price">
+								<a href="interestDetail.html" class="">
+									<img class="mui-media-object head-photo mui-pull-left" src="../../image/headphoto.jpg">
+									<div class="mui-media-body">
+										<h4 class="font12">桥上看风景</h4>
+										<span class="font6b fr"><i class="fa fa-eye "></i>1256</span>
+										<p class='mui-ellipsis font10'>发疯似的,假冒危险</p>
+									</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media item-price">
+								<a href="interestDetail.html" class="">
+									<img class="mui-media-object head-photo mui-pull-left" src="../../image/headphoto.jpg">
+									<div class="mui-media-body">
+										<h4 class="font12">桥上看风景</h4>
+										<span class="font6b fr"><i class="fa fa-eye "></i>1256</span>
+										<p class='mui-ellipsis font10'>发疯似的,假冒危险</p>
+									</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media item-price">
+								<a href="interestDetail.html" class="">
+									<img class="mui-media-object head-photo mui-pull-left" src="../../image/headphoto.jpg">
+									<div class="mui-media-body">
+										<h4 class="font12">桥上看风景</h4>
+										<span class="font6b fr"><i class="fa fa-eye "></i>1256</span>
+										<p class='mui-ellipsis font10'>发疯似的,假冒危险</p>
+									</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media item-price">
+								<a href="interestDetail.html" class="">
+									<img class="mui-media-object head-photo mui-pull-left" src="../../image/headphoto.jpg">
+									<div class="mui-media-body">
+										<h4 class="font12">桥上看风景</h4>
+										<span class="font6b fr"><i class="fa fa-eye "></i>1256</span>
+										<p class='mui-ellipsis font10'>发疯似的,假冒危险</p>
+									</div>
+								</a>
+							</li>
+						</div>
+					</div>
+					<!--旅行 End-->
+
+					<!--tab1 start -->
+					<div class="item">
+						<!--图片话题 start-->
+						<div class="mui-table-view ">
+							<li class="mui-table-view-cell mui-media item-price">
+								<a href="interestDetail.html" class="">
+									<img class="mui-media-object head-photo mui-pull-left" src="../../image/headphoto.jpg">
+									<div class="mui-media-body">
+										<h4 class="font12">桥上看风景</h4>
+										<span class="font6b fr"><i class="fa fa-eye "></i>1256</span>
+										<p class='mui-ellipsis font10'>发疯似的,假冒危险</p>
+									</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media item-price">
+								<a href="interestDetail.html" class="">
+									<img class="mui-media-object head-photo mui-pull-left" src="../../image/headphoto.jpg">
+									<div class="mui-media-body">
+										<h4 class="font12">桥上看风景</h4>
+										<span class="font6b fr"><i class="fa fa-eye "></i>1256</span>
+										<p class='mui-ellipsis font10'>发疯似的,假冒危险</p>
+									</div>
+								</a>
+							</li>
+							
+							<li class="mui-table-view-cell mui-media item-price">
+								<a href="interestDetail.html" class="">
+									<img class="mui-media-object head-photo mui-pull-left" src="../../image/headphoto.jpg">
+									<div class="mui-media-body">
+										<h4 class="font12">桥上看风景</h4>
+										<span class="font6b fr"><i class="fa fa-eye "></i>1256</span>
+										<p class='mui-ellipsis font10'>发疯似的,假冒危险</p>
+									</div>
+								</a>
+							</li>
+						</div>
+					</div>
+					<!--旅行 End-->
+				</div>
+
+			</div>
+		</div>
+
+		<!--footer start-->
+		<footer>
+			<nav class="mui-bar mui-bar-tab">
+				<a class="mui-tab-item" href="shop-child.html">
+					<span class="mui-icon mui-icon-home"></span>
+					<span class="mui-tab-label">商城</span>
+				</a>
+				<a class="mui-tab-item mui-active" href="nav.html">
+					<span class="mui-icon mui-icon-phone"></span>
+					<span class="mui-tab-label">毛屋小时达</span>
+				</a>
+
+				<a class="mui-tab-item" href="community.html">
+					<span class="mui-icon mui-icon-chat"></span>
+					<span class="mui-tab-label">绿肺社区</span>
+				</a>
+
+				<a class="mui-tab-item" href="myCenter.html">
+					<span class="mui-icon mui-icon-person"></span>
+					<span class="mui-tab-label">个人中心</span>
+				</a>
+			</nav>
+		</footer>
+		<!--footer End-->
+
+		<script src="../../js/mui.min.js"></script>
+		<script src="../../js/app.js"></script>
+		<script src="../../js/config.js"></script>
+		<script src="../../js/common.js"></script>
+		<script src="../../js/template-native.js"></script>
+		<script src="../../js/jquery-1.11.0.js"></script>
+		<script>
+			$(function() {
+				$(".item").hide();
+				$(".item.current").show();
+				$(".item-name a").each(function() {
+					$(this).click(function() {
+						var index = $(this).index();
+						$(this).addClass("active");
+						$(this).parent().siblings(".item").eq(index).show()
+							.siblings(".item").hide();
+					});
+				});
+			});
+		</script>
+
+	</body>
+
+</html>

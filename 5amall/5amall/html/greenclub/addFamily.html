@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>添加家人朋友</title>		
+		<link rel="stylesheet" href="../../css/font-awesome/css/font-awesome.min.css" />
+		<link href="../../css/mui.min.css" rel="stylesheet" />
+		<link href="../../css/main.css" rel="stylesheet" />
+		<link href="../../css/style.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav main-color FFF">
+			<a class="mui-btn mui-btn-link mui-btn-nav mui-pull-left" href="javascript:history.go(-1);">
+				<span class="mui-icon mui-icon-left-nav"></span>添加家人朋友
+			</a>
+		</header>
+
+		<div class="mui-content">
+			<form class="mui-input-group mui-col-xs-10 center">
+				<div class="login">
+					<div class="mui-input-row">
+						<label>称呼:</label>
+						<input type="text" name="name" class="mui-input-clear font12" placeholder="">
+					</div>
+
+					<div class="mui-input-row">
+						<label>性别:</label>
+						<div class="sex">
+							<input name="sex" type="radio" class="font12">
+							<label>男</label>
+
+							<input name="sex" type="radio" class="font12" checked>
+							<label>女</label>
+						</div>
+
+					</div>
+					<div class="mui-input-row">
+						<label>年龄:</label>
+						<input type="number" name="age" class="font12" placeholder="">
+					</div>
+
+					<div class="mui-input-row">
+						<label>所造城市:</label>
+						<input type="text" name="city" class="font12 city" placeholder="试试通过定位获取"><i class="fa fa-map-marker"></i>
+					</div>
+				</div>
+			</form>
+
+		</div>
+		
+		<script src="../../js/mui.min.js"></script>
+		<script src="../../js/app.js"></script>
+		<script src="../../js/config.js"></script>
+		<script src="../../js/common.js"></script>
+		<script src="../../js/template-native.js"></script>
+
+	</body>
+
+</html>
