@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>无缝滚动2</title>
+		<meta name="description" content="" />
+	</head>
+
+	<body>
+		<script src="js/jquery-2.1.0.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			/*
+			 * jQuery - jcMarquee v0.10
+			 * Copyright(c) 2012 by Riddick-design 
+			 * Date: 2012-01-07
+			 * 相关参数 
+			   'marquee':'x',        \\ 设置滚动方向，提供 marquee:x 或 marquee:y
+			   'margin_bottom':'0',  \\ 设置margin_bottom值
+			   'margin_right':'0',   \\ 设置margin_right值
+			   'speed':'10'          \\ 设置滚动速度,单位mm
+			 * 重要提醒
+			   #Marquee_x ul li { float:left;} // 横向滚动时必须让所有li左浮动 
+			 * HTML结构
+			   <div id="Marquee"> 
+			         <ul> 
+			              <li> 
+			                  <div><img height="50" width="100" alt="图片1" /></div>
+			              </li>
+			         </ul> 
+			   </div>  
+			 */
+			;
+			(function($) {
+				$.fn.jcMarquee = function(options) {
+					var defaults = {
+						'marquee': 'x',
+						'margin_bottom': '0',
+						'margin_right': '0',
+						'speed': '10'
+					};
+					var options = $.extend(defaults, options);
+					return this.each(function() {
+						var $marquee = $(this),
+							$marquee_scroll = $marquee.children('ul');
+						$marquee_scroll.append("<li class='clone'>" + "</li>");
+						$marquee_scroll.find('li').eq(0).children().clone().appendTo('.clone');
+						var $marquee_left = $marquee_scroll.find('li');
+						if (options.marquee == 'x') {
+							var x = 0;
+							$marquee_scroll.css('width', '1000%');
+							$marquee_left.find('div').css({
+								'margin-right': options.margin_right
+							});
+							$marquee_left.css({
+								'margin-right': options.margin_right
+							});
+
+							function Marquee_x() {
+								$marquee.scrollLeft(++x);
+								_margin = parseInt($marquee_left.find('div').css('margin-right'));
+								if (x == $marquee_left.width() + _margin) {
+									x = 0
+								};
+							};
+							var MyMar = setInterval(Marquee_x, options.speed);
+							$marquee.hover(function() {
+								clearInterval(MyMar);
+							}, function() {
+								MyMar = setInterval(Marquee_x, options.speed);
+							});
+						}
+						if (options.marquee == 'y') {
+							var y = 0;
+							$marquee_scroll.css('height', '1000%');
+							$marquee_left.find('div').css('margin-bottom', options.margin_bottom);
+							$marquee_left.css('margin-bottom', options.margin_bottom);
+
+							function Marquee_y() {
+								$marquee.scrollTop(++y);
+								_margin = parseInt($marquee_left.find('div').css('margin-bottom'));
+								if (y == $marquee_left.height() + _margin) {
+									y = 0
+								};
+							};
+							var MyMar = setInterval(Marquee_y, options.speed);
+							$marquee.hover(function() {
+								clearInterval(MyMar);
+							}, function() {
+								MyMar = setInterval(Marquee_y, options.speed);
+							});
+						};
+					});
+				};
+			})(jQuery)
+		</script>
+
+		<style type="text/css">
+			@charset "utf-8";
+			/* DIVCSS5-CSS初始化模板-www.divcss5.com */
+			body, div,  ul,  li{margin:0; padding:0;font-style: normal;font:12px/22px "\5B8B\4F53",Arial, Helvetica, sans-serif}
+			/* \5B8B\4F53 代表 宋体，更多中文字体转 Unicode http://www.divcss5.com/jiqiao/j325.shtml */
+			ol, ul ,li{list-style:none}
+			img {border: 0; vertical-align:middle}
+			body{color:#000000;background:#FFF; text-align:center}
+			.clear{clear:both;height:1px;width:100%; overflow:hidden; margin-top:-1px}
+			a{color:#000000;text-decoration:none} 
+			a:hover{color:#BA2636;text-decoration:underline}
+			
+			#mrq{width:925px; margin:20px auto;border:1px solid #000; padding:2px}
+			#Marquee_x { overflow:hidden; width: 925px } 
+			#Marquee_x ul li ,#Marquee_x ul li div{ float:left;line-height:25px;overflow:hidden} /* 横向滚动必须让所有li左浮动 */
+			#Marquee_x ul li div{ float:left;line-height:25px;height:131px; width:142px; overflow:hidden}
+			#Marquee_x ul li div img{ border:1px solid #DADADA; width:140px; height:105px; display:block}
+			#Marquee_x ul li div span{ display:block;}
+			
+			#n{margin:10px auto; width:920px; border:1px solid #CCC;font-size:12px; line-height:30px;}
+			#n a{ padding:0 4px; color:#333}
+			#bcty365_nav{padding-left:50px; margin-bottom:10px; border-bottom:2px solid #ccc; overflow:hidden; _zoom:1;}
+			#bcty365_nav li{float:left; display:inline; margin:10px;}
+			#bcty365_nav li a{display:block;color:#000000; font-size:16px;}
+			#bcty365_nav li a,#wimoban_p,#wimoban_p a{ font-family:"微软雅黑";}
+			#bcty365_nav li a:hover,#wimoban_p a:hover{color:red;}
+		</style>
+
+		<div id="Marquee_x">
+			<ul>
+				<li>
+					<div>
+						<a href="#" target="_blank"><img src="images/i1.jpg" /><span>DIVCSS5学习</span></a>
+					</div>
+					<div>
+						<a href="#" target="_blank"><img src="images/i2.jpg" /><span>CSS学习上DIVCSS5</span></a>
+					</div>
+					<div>
+						<a href="#" target="_blank"><img src="images/i3.jpg" /><span>案例演示</span></a>
+					</div>
+					<div>
+						<a href="#" target="_blank"><img src="images/i4.jpg" /><span>CSS技巧</span></a>
+					</div>
+					<div>
+						<a href="#" target="_blank"><img src="images/i5.jpg" /><span>CSS特效</span></a>
+					</div>
+					<div>
+						<a href="#" target="_blank"><img src="images/i6.jpg" /><span>CSS hack</span></a>
+					</div>
+					<div>
+						<a href="#" target="_blank"><img src="images/i7.jpg" /><span>DIV+CSS实例</span></a>
+					</div>
+					<div>
+						<a href="#" target="_blank"><img src="images/i8.jpg" /><span>滚动案例演示</span></a>
+					</div>
+					<div>
+						<a href="#" target="_blank"><img src="images/i9.jpg" /><span>演示内容</span></a>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+		<script>
+			$(function() {
+				$('#Marquee_x').jcMarquee({
+					'marquee': 'x',
+					'margin_right': '10px',
+					'speed': 20
+				});
+				// DIVCSS5提示：10px代表间距，第二个20代表滚动速度
+			});
+		</script>
+
+	</body>
+
+</html>

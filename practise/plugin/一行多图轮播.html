@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>一行多图轮播</title>
+    <meta name="description" content="" />
+</head>
+<body>
+    <script src="js/jquery-2.1.0.js" type="text/javascript"></script>
+    <style type="text/css">
+* { margin: 0; padding: 0; list-style-type: none; }
+a, img { border: 0; }
+body { font: 12px/180% Arial, Helvetica, sans-serif, "新宋体"; }
+.scrollBanner { position: relative; height: 440px; width:990px;overflow: hidden; }
+.scrollBanner ul { position: absolute; top: 0; left: 0; height: 440px; overflow: hidden; }
+.scrollBanner li { float: left; display: inline; width: 330px; height: 220px; text-align: center; }
+.scrollBanner img { width: 330px; height: 220px; }
+h1 { text-align: center; }
+    </style>
+    <h1>向上</h1>
+    <div class="scrollBanner" id="demo1">
+        <ul>
+            <li>
+                <a href="#">
+                    <img alt="卷板" src="img/1.jpg" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img alt="钢板" src="img/2.jpg" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img alt="钢板" src="img/3.jpg" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img alt="钢板" src="img/4.jpg" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img alt="钢板" src="img/5.jpg" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img alt="卷板" src="img/1.jpg" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img alt="钢板" src="img/2.jpg" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img alt="钢板" src="img/3.jpg" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img alt="钢板" src="img/4.jpg" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img alt="钢板" src="img/5.jpg" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img alt="卷板" src="img/1.jpg" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img alt="钢板" src="img/2.jpg" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img alt="钢板" src="img/3.jpg" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img alt="钢板" src="img/4.jpg" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img alt="钢板" src="img/5.jpg" />
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <script>
+    ;(function($) {
+        $.fn.extend({
+            scroll: function(options) {
+                //默认参数
+                var defaults = {
+                    num: '3', //横向的个数
+                    line: '3', //纵向的个数
+                    speed: 500, //动画执行的时间
+                    timer: 3000 //动画每次停留的时间
+                }
+                var opts = $.extend({}, defaults, options);
+                var container = this;
+                var wrapper = container.children().eq(0);
+                var size = container.width();
+                var height = container.height();
+                var length = wrapper.children().length;
+                var index =0;
+                return this.each(function() {
+                    var scrollUp = function(obj) {
+                        index+=1;
+                        wrapper.animate({
+                            left:'-='+size
+                        },opts.speed)
+                    }
+                    setInterval(scrollUp, opts.timer);
+                });
+            }
+        });
+    })(jQuery)
+    $(document).ready(function() {
+        $("#demo1").scroll({
+            line: '1'
+        });
+    });
+    </script>
+</body>
+</html>

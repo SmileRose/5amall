@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="applicable-device" content="mobile">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="robots" content="all">
+    <meta name="author" content="Rose Zhao">
+    <meta name="copyright" content="Skymoons">
+    <meta name="editor" content="Skymoons">
+    <meta name="designer" content="Rose Zhao">
+    <title>固定轮播</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+        a,
+        img {
+            border: 0;
+        }
+        body {
+            font: 12px/180% Arial, Helvetica, sans-serif, "新宋体";
+        }
+        .scrollBanner {
+            position: relative;
+            height: 440px;
+        }
+        .Banner ul {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width:330px;
+            height: 220px;
+            overflow: hidden;
+        }
+        .Banner li {
+            float: left;
+            display: inline;
+            width: 330px;
+            height: 220px;
+            text-align: center;
+        }
+        .Banner img {
+            width: 330px;
+            height: 220px;
+        }        
+    </style>
+</head>
+<body>
+<div class="Banner" id="demo2">
+    <ul>
+        <li>
+            <img src="img/1.jpg" alt="图片1"/>
+        </li>
+        <li>
+            <img src="img/2.jpg" alt="图片1"/>
+        </li>
+        <li>
+            <img src="img/3.jpg" alt="图片1"/>
+        </li>
+        <li>
+            <img src="img/4.jpg" alt="图片1"/>
+        </li>
+    </ul>
+    <ol>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+    </ol>
+</div>
+<script src="js/jquery-2.1.0.js"></script>
+<script>
+;(function($, window, document, undefined){
+    $.fn.extend({
+        banner: function(opts){
+            var defaults = {
+                eventType:'click'
+            }
+
+            var opt = $.extend({},defaults,opts);
+
+            return this.each(function(){
+                var len  = $('.Banner>ul').find('li').length();
+                var i = 0;
+
+                function auto(){
+                    i++;
+                    if(i>len-1){
+                        i = 0;
+                    }else if(i<0){
+                        i = len-1
+                    }
+                }
+
+                function slide(i){
+                }
+            });
+        }
+    });
+})(jQuery);
+
+$(document).ready(function() {
+
+});
+</script>
+</body>
+</html>

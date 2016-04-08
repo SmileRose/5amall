@@ -1,0 +1,78 @@
+<html>
+<head>
+    <style type="text/css">
+    #parent {
+        height: 100px;
+        width: 200px;
+        overflow: hidden;
+        border: 1px solid #000;
+    }
+
+    #parent div input {
+        position: absolute;
+        z-index: 1;
+        height: 20px;
+        width: 200px;
+    }
+
+    #inner {
+        margin: 20px 0px;
+    }
+    </style>
+    <script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+    <script type="text/javascript">
+    $(function() {
+        var up = $("#parent input").eq(0);
+        var down = $("#parent input").eq(1);
+        var inner = $("#inner");
+        up.click(function() {
+            if (parseInt(inner.css("marginTop")) < parseInt($("#parent").css("height")) - parseInt(inner.css("height")) + 20) {
+                up.attr("disabled", "disabled").css("color", "red");;
+            } else {
+                down.removeAttr("disabled").css("color", "#000");
+                inner.css("marginTop", "-=12px");
+            }
+        });
+        down.css("top", "90px").click(function() {
+            if (parseInt(inner.css("marginTop")) >= 20) {
+                down.attr("disabled", "disabled").css("color", "red");;
+            } else {
+                up.removeAttr("disabled").css("color", "#000");;
+                inner.css("marginTop", "+=12px");
+            }
+        });
+    });
+    </script>
+</head>
+<body>
+    <div id=parent>
+        <div>
+            <input type=button value="up">
+        </div>
+        <div id="inner">
+            12334534554
+            <br/> 645567567567568
+            <br/> 6786789789gfhdf
+            <br/> ghdfghdfghdfghdfg
+            <br/> 12334534554
+            <br/> 645567567567568
+            <br/> 6786789789gfhdf
+            <br/> ghdfghdfghdfghdfg
+            <br/> 12334534554
+            <br/> 645567567567568
+            <br/> 6786789789gfhdf
+            <br/> ghdfghdfghdfghdfg
+            <br/> 12334534554
+            <br/> 645567567567568
+            <br/> 6786789789gfhdf
+            <br/> ghdfghdfghdfghdfg
+            <br/> 12334534554
+            <br/> 645567567567568
+            <br/>
+        </div>
+        <div>
+            <input type=button value="down">
+        </div>
+    </div>
+</body>
+</html>

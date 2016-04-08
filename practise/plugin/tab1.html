@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>jQuery实现的tab标签自动切换效果</title>
+	<style type="text/css">
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    dl {
+        margin: 10px auto;
+        width: 500px;
+        line-height: 24px;
+        border-left: 1px solid #dcdcdc;
+    }
+
+    dt.active {
+        border-bottom: 1px solid #fff;
+        position: relative;
+    }
+
+    dt {
+        padding: 0 10px;
+        float: left;
+        border: 1px solid #dcdcdc;
+        border-left: 0;
+        cursor: pointer;
+        margin-bottom: -1px;
+    }
+
+    dd {
+        clear: both;
+        width: 100%;
+        border-left: 0;
+        border: 1px solid #dcdcdc;
+        border-left: 0;
+        display: none;
+    }
+    </style>
+</head>
+
+<body>
+	<dl>
+		<dt>nav1</dt>
+		<dt>nav2</dt>
+		<dt>nav3</dt>
+		<dd>1111111111111111111111</dd>
+		<dd>2222222222222222222222</dd>
+		<dd>3333333333333333333333</dd>
+	</dl>
+	<script type="text/javascript" src="/html/txdm_2/images/20101004/jquery-1.2.6.min.js"></script>
+	<script type="text/javascript">
+    $(document).ready(function() {
+        $('dt:first').addClass('active');
+        $('dd:first').css('display', 'block');
+        autoroll();
+        hookThumb();
+    });
+    var i = -1; //第i+1个tab开始
+    var offset = 2500; //轮换时间
+    var timer = null;
+
+    function autoroll() {
+        n = $('dt').length - 1;
+        i++;
+        if (i > n) {
+            i = 0;
+        }
+        slide(i);
+        timer = window.setTimeout(autoroll, offset);
+    }
+
+    function slide(i) {
+        $('dt').eq(i).addClass('active').siblings().removeClass('active');
+        $('dd').eq(i).css('display', 'block').siblings('dd').css('display', 'none');
+    }
+
+    function hookThumb() {
+        $('dt').hover(
+            function() {
+                if (timer) {
+                    clearTimeout(timer);
+                    i = $(this).prevAll().length;
+                    slide(i);
+                }
+            },
+            function() {
+                timer = window.setTimeout(autoroll, offset);
+                this.blur();
+                return false;
+            }
+        );
+    }
+    </script>
+</body>
+
+</html>
